@@ -43,7 +43,7 @@
     mySettingsView = [[UITableView alloc] initWithFrame:frame style:UITableViewStyleGrouped];
     mySettingsView.delegate = self;
     mySettingsView.dataSource = self;
-    [mySettingsView setBackgroundColor:[UIColor brownColor]];
+//    [mySettingsView setBackgroundColor:[UIColor brownColor]];
     
     [self.view addSubview:mySettingsView];
 }
@@ -131,7 +131,7 @@
     else {
         if ([groupName compare:@"PPack" options:NSLiteralSearch range:NSMakeRange(0, 5)] == NSOrderedSame) {
             num = [groupName characterAtIndex:5];
-            temp = [NSString stringWithFormat:@"%@ %C", NSLocalizedString(@"BGPACK", nil), num];
+            temp = [NSString stringWithFormat:@"%@ %C", NSLocalizedString(@"PPACK", nil), num];
         }
     }
     

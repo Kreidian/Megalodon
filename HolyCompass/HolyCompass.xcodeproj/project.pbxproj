@@ -7,6 +7,46 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		74B4BFA7156C2D7200E35598 /* Arrow-Fleurdelis.png in Resources */ = {isa = PBXBuildFile; fileRef = 74B4BFA4156C2D7200E35598 /* Arrow-Fleurdelis.png */; };
+		74B4BFA9156C2D7200E35598 /* asaig-marble.png in Resources */ = {isa = PBXBuildFile; fileRef = 74B4BFA6156C2D7200E35598 /* asaig-marble.png */; };
+		74B4BFAD156C2E8900E35598 /* Banner-Arrow-tribalcross.png in Resources */ = {isa = PBXBuildFile; fileRef = 74B4BFAA156C2E8900E35598 /* Banner-Arrow-tribalcross.png */; };
+		74B4BFAE156C2E8900E35598 /* Banner-asaig-marble.png in Resources */ = {isa = PBXBuildFile; fileRef = 74B4BFAB156C2E8900E35598 /* Banner-asaig-marble.png */; };
+		74B4BFAF156C2E8900E35598 /* Banner-asaig-pavement.png in Resources */ = {isa = PBXBuildFile; fileRef = 74B4BFAC156C2E8900E35598 /* Banner-asaig-pavement.png */; };
+		74B4BFBE156C2E9800E35598 /* Banner-classic-chain.png in Resources */ = {isa = PBXBuildFile; fileRef = 74B4BFB0156C2E9800E35598 /* Banner-classic-chain.png */; };
+		74B4BFBF156C2E9800E35598 /* Banner-classic-leath.png in Resources */ = {isa = PBXBuildFile; fileRef = 74B4BFB1156C2E9800E35598 /* Banner-classic-leath.png */; };
+		74B4BFC0156C2E9800E35598 /* Banner-classic-marble.png in Resources */ = {isa = PBXBuildFile; fileRef = 74B4BFB2156C2E9800E35598 /* Banner-classic-marble.png */; };
+		74B4BFC1156C2E9800E35598 /* Banner-classic-parch.png in Resources */ = {isa = PBXBuildFile; fileRef = 74B4BFB3156C2E9800E35598 /* Banner-classic-parch.png */; };
+		74B4BFC2156C2E9800E35598 /* Banner-classic-pavement.png in Resources */ = {isa = PBXBuildFile; fileRef = 74B4BFB4156C2E9800E35598 /* Banner-classic-pavement.png */; };
+		74B4BFC3156C2E9800E35598 /* Banner-classic-pinkfl.png in Resources */ = {isa = PBXBuildFile; fileRef = 74B4BFB5156C2E9800E35598 /* Banner-classic-pinkfl.png */; };
+		74B4BFC4156C2E9800E35598 /* Banner-classic-tile.png in Resources */ = {isa = PBXBuildFile; fileRef = 74B4BFB6156C2E9800E35598 /* Banner-classic-tile.png */; };
+		74B4BFC5156C2E9800E35598 /* Banner-colorstar-chain.png in Resources */ = {isa = PBXBuildFile; fileRef = 74B4BFB7156C2E9800E35598 /* Banner-colorstar-chain.png */; };
+		74B4BFC6156C2E9800E35598 /* Banner-colorstar-leath.png in Resources */ = {isa = PBXBuildFile; fileRef = 74B4BFB8156C2E9800E35598 /* Banner-colorstar-leath.png */; };
+		74B4BFC7156C2E9800E35598 /* Banner-colorstar-marble.png in Resources */ = {isa = PBXBuildFile; fileRef = 74B4BFB9156C2E9800E35598 /* Banner-colorstar-marble.png */; };
+		74B4BFC8156C2E9800E35598 /* Banner-colorstar-parch.png in Resources */ = {isa = PBXBuildFile; fileRef = 74B4BFBA156C2E9800E35598 /* Banner-colorstar-parch.png */; };
+		74B4BFC9156C2E9800E35598 /* Banner-colorstar-pavement.png in Resources */ = {isa = PBXBuildFile; fileRef = 74B4BFBB156C2E9800E35598 /* Banner-colorstar-pavement.png */; };
+		74B4BFCA156C2E9800E35598 /* Banner-colorstar-pinkfl.png in Resources */ = {isa = PBXBuildFile; fileRef = 74B4BFBC156C2E9800E35598 /* Banner-colorstar-pinkfl.png */; };
+		74B4BFCB156C2E9800E35598 /* Banner-colorstar-tile.png in Resources */ = {isa = PBXBuildFile; fileRef = 74B4BFBD156C2E9800E35598 /* Banner-colorstar-tile.png */; };
+		74B4BFD2156C2EAA00E35598 /* Banner-cress-marble.png in Resources */ = {isa = PBXBuildFile; fileRef = 74B4BFCC156C2EAA00E35598 /* Banner-cress-marble.png */; };
+		74B4BFD3156C2EAA00E35598 /* Banner-rucomp-marble.png in Resources */ = {isa = PBXBuildFile; fileRef = 74B4BFCD156C2EAA00E35598 /* Banner-rucomp-marble.png */; };
+		74B4BFD4156C2EAA00E35598 /* Banner-rucomp-pave.png in Resources */ = {isa = PBXBuildFile; fileRef = 74B4BFCE156C2EAA00E35598 /* Banner-rucomp-pave.png */; };
+		74B4BFD5156C2EAA00E35598 /* Banner-Stain-glass-window.png in Resources */ = {isa = PBXBuildFile; fileRef = 74B4BFCF156C2EAA00E35598 /* Banner-Stain-glass-window.png */; };
+		74B4BFD6156C2EAA00E35598 /* Banner-Stdav-marble.png in Resources */ = {isa = PBXBuildFile; fileRef = 74B4BFD0156C2EAA00E35598 /* Banner-Stdav-marble.png */; };
+		74B4BFD7156C2EAA00E35598 /* Banner-Stdav-tile.png in Resources */ = {isa = PBXBuildFile; fileRef = 74B4BFD1156C2EAA00E35598 /* Banner-Stdav-tile.png */; };
+		74B4BFDF156C2EB500E35598 /* classic-chain.png in Resources */ = {isa = PBXBuildFile; fileRef = 74B4BFD8156C2EB500E35598 /* classic-chain.png */; };
+		74B4BFE0156C2EB500E35598 /* classic-leath.png in Resources */ = {isa = PBXBuildFile; fileRef = 74B4BFD9156C2EB500E35598 /* classic-leath.png */; };
+		74B4BFE1156C2EB500E35598 /* classic-marble.png in Resources */ = {isa = PBXBuildFile; fileRef = 74B4BFDA156C2EB500E35598 /* classic-marble.png */; };
+		74B4BFE2156C2EB500E35598 /* classic-parch.png in Resources */ = {isa = PBXBuildFile; fileRef = 74B4BFDB156C2EB500E35598 /* classic-parch.png */; };
+		74B4BFE3156C2EB500E35598 /* classic-pavement.png in Resources */ = {isa = PBXBuildFile; fileRef = 74B4BFDC156C2EB500E35598 /* classic-pavement.png */; };
+		74B4BFE4156C2EB500E35598 /* classic-pinkfl.png in Resources */ = {isa = PBXBuildFile; fileRef = 74B4BFDD156C2EB500E35598 /* classic-pinkfl.png */; };
+		74B4BFE5156C2EB500E35598 /* classic-tile.png in Resources */ = {isa = PBXBuildFile; fileRef = 74B4BFDE156C2EB500E35598 /* classic-tile.png */; };
+		74B4BFE8156C2EC400E35598 /* colorstar-marble.png in Resources */ = {isa = PBXBuildFile; fileRef = 74B4BFE6156C2EC400E35598 /* colorstar-marble.png */; };
+		74B4BFE9156C2EC400E35598 /* cress-marble.png in Resources */ = {isa = PBXBuildFile; fileRef = 74B4BFE7156C2EC400E35598 /* cress-marble.png */; };
+		74B4BFED156C2EF800E35598 /* Rucomp-marble.png in Resources */ = {isa = PBXBuildFile; fileRef = 74B4BFEA156C2EF800E35598 /* Rucomp-marble.png */; };
+		74B4BFEE156C2EF800E35598 /* Stain-glass-window.png in Resources */ = {isa = PBXBuildFile; fileRef = 74B4BFEB156C2EF800E35598 /* Stain-glass-window.png */; };
+		74B4BFEF156C2EF800E35598 /* Stdav-marble.png in Resources */ = {isa = PBXBuildFile; fileRef = 74B4BFEC156C2EF800E35598 /* Stdav-marble.png */; };
+		74B4BFF1156C2FFA00E35598 /* Arrow-tribalcross.png in Resources */ = {isa = PBXBuildFile; fileRef = 74B4BFF0156C2FFA00E35598 /* Arrow-tribalcross.png */; };
+		74B4BFF3156C333D00E35598 /* Banner-Arrow-Fleurdelis.png in Resources */ = {isa = PBXBuildFile; fileRef = 74B4BFF2156C333D00E35598 /* Banner-Arrow-Fleurdelis.png */; };
+		74B4C001156C3A5B00E35598 /* HHParameters.plist in Resources */ = {isa = PBXBuildFile; fileRef = 74B4C000156C3A5B00E35598 /* HHParameters.plist */; };
 		74DC7FB8156464BE00D96FFE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74DC7FB7156464BE00D96FFE /* UIKit.framework */; };
 		74DC7FBA156464BE00D96FFE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74DC7FB9156464BE00D96FFE /* Foundation.framework */; };
 		74DC7FBC156464BE00D96FFE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74DC7FBB156464BE00D96FFE /* CoreGraphics.framework */; };
@@ -39,12 +79,6 @@
 		74DC80341564657700D96FFE /* Banner-asaig-pave.png in Resources */ = {isa = PBXBuildFile; fileRef = 74DC7FE61564657700D96FFE /* Banner-asaig-pave.png */; };
 		74DC80351564657700D96FFE /* Banner-asaig-pinkfl.png in Resources */ = {isa = PBXBuildFile; fileRef = 74DC7FE71564657700D96FFE /* Banner-asaig-pinkfl.png */; };
 		74DC80361564657700D96FFE /* Banner-asaig-tile.png in Resources */ = {isa = PBXBuildFile; fileRef = 74DC7FE81564657700D96FFE /* Banner-asaig-tile.png */; };
-		74DC80371564657700D96FFE /* Banner-colorstar-chain.png in Resources */ = {isa = PBXBuildFile; fileRef = 74DC7FE91564657700D96FFE /* Banner-colorstar-chain.png */; };
-		74DC80381564657700D96FFE /* Banner-colorstar-leath.png in Resources */ = {isa = PBXBuildFile; fileRef = 74DC7FEA1564657700D96FFE /* Banner-colorstar-leath.png */; };
-		74DC80391564657700D96FFE /* Banner-colorstar-parch.png in Resources */ = {isa = PBXBuildFile; fileRef = 74DC7FEB1564657700D96FFE /* Banner-colorstar-parch.png */; };
-		74DC803A1564657700D96FFE /* Banner-colorstar-pavement.png in Resources */ = {isa = PBXBuildFile; fileRef = 74DC7FEC1564657700D96FFE /* Banner-colorstar-pavement.png */; };
-		74DC803B1564657700D96FFE /* Banner-colorstar-pinkfl.png in Resources */ = {isa = PBXBuildFile; fileRef = 74DC7FED1564657700D96FFE /* Banner-colorstar-pinkfl.png */; };
-		74DC803C1564657700D96FFE /* Banner-colorstar-tile.png in Resources */ = {isa = PBXBuildFile; fileRef = 74DC7FEE1564657700D96FFE /* Banner-colorstar-tile.png */; };
 		74DC803D1564657700D96FFE /* Banner-cress-chain.png in Resources */ = {isa = PBXBuildFile; fileRef = 74DC7FEF1564657700D96FFE /* Banner-cress-chain.png */; };
 		74DC803E1564657700D96FFE /* Banner-cress-leath.png in Resources */ = {isa = PBXBuildFile; fileRef = 74DC7FF01564657700D96FFE /* Banner-cress-leath.png */; };
 		74DC803F1564657700D96FFE /* Banner-cress-parch.png in Resources */ = {isa = PBXBuildFile; fileRef = 74DC7FF11564657700D96FFE /* Banner-cress-parch.png */; };
@@ -78,7 +112,6 @@
 		74DC805B1564657700D96FFE /* cress-pavement.png in Resources */ = {isa = PBXBuildFile; fileRef = 74DC800D1564657700D96FFE /* cress-pavement.png */; };
 		74DC805C1564657700D96FFE /* cress-pinkfl.png in Resources */ = {isa = PBXBuildFile; fileRef = 74DC800E1564657700D96FFE /* cress-pinkfl.png */; };
 		74DC805D1564657700D96FFE /* cress-tile.png in Resources */ = {isa = PBXBuildFile; fileRef = 74DC800F1564657700D96FFE /* cress-tile.png */; };
-		74DC805E1564657700D96FFE /* dash-wood.png in Resources */ = {isa = PBXBuildFile; fileRef = 74DC80101564657700D96FFE /* dash-wood.png */; };
 		74DC805F1564657700D96FFE /* Rucomp-chain.png in Resources */ = {isa = PBXBuildFile; fileRef = 74DC80111564657700D96FFE /* Rucomp-chain.png */; };
 		74DC80601564657700D96FFE /* Rucomp-leath.png in Resources */ = {isa = PBXBuildFile; fileRef = 74DC80121564657700D96FFE /* Rucomp-leath.png */; };
 		74DC80611564657700D96FFE /* Rucomp-parch.png in Resources */ = {isa = PBXBuildFile; fileRef = 74DC80131564657700D96FFE /* Rucomp-parch.png */; };
@@ -91,7 +124,6 @@
 		74DC80681564657700D96FFE /* Stdav-pavement.png in Resources */ = {isa = PBXBuildFile; fileRef = 74DC801A1564657700D96FFE /* Stdav-pavement.png */; };
 		74DC80691564657700D96FFE /* Stdav-pinkfl.png in Resources */ = {isa = PBXBuildFile; fileRef = 74DC801B1564657700D96FFE /* Stdav-pinkfl.png */; };
 		74DC806A1564657700D96FFE /* Stdav-tile.png in Resources */ = {isa = PBXBuildFile; fileRef = 74DC801C1564657700D96FFE /* Stdav-tile.png */; };
-		74DC806C1564659500D96FFE /* HHParameters.plist in Resources */ = {isa = PBXBuildFile; fileRef = 74DC806B1564659500D96FFE /* HHParameters.plist */; };
 		74DC807A156465A600D96FFE /* MKImageListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 74DC806E156465A600D96FFE /* MKImageListViewController.m */; };
 		74DC807B156465A600D96FFE /* MKImageViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 74DC8070156465A600D96FFE /* MKImageViewCell.m */; };
 		74DC807C156465A600D96FFE /* MKInAppPurchaseManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 74DC8072156465A600D96FFE /* MKInAppPurchaseManager.m */; };
@@ -105,20 +137,6 @@
 		74DC8088156465B700D96FFE /* wood dash thin.png in Resources */ = {isa = PBXBuildFile; fileRef = 74DC8084156465B700D96FFE /* wood dash thin.png */; };
 		74DC808D1564660800D96FFE /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 74DC80891564660800D96FFE /* Localizable.strings */; };
 		74DC808E1564660800D96FFE /* MKViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 74DC808B1564660800D96FFE /* MKViewController_iPhone.xib */; };
-		74DC80901564662300D96FFE /* HHParameters.plist in Resources */ = {isa = PBXBuildFile; fileRef = 74DC806B1564659500D96FFE /* HHParameters.plist */; };
-		74DC80921564662A00D96FFE /* HHParameters.plist in Resources */ = {isa = PBXBuildFile; fileRef = 74DC806B1564659500D96FFE /* HHParameters.plist */; };
-		74DC80941564663100D96FFE /* HHParameters.plist in Resources */ = {isa = PBXBuildFile; fileRef = 74DC806B1564659500D96FFE /* HHParameters.plist */; };
-		74DC80961564663900D96FFE /* HHParameters.plist in Resources */ = {isa = PBXBuildFile; fileRef = 74DC806B1564659500D96FFE /* HHParameters.plist */; };
-		74DC80981564664100D96FFE /* HHParameters.plist in Resources */ = {isa = PBXBuildFile; fileRef = 74DC806B1564659500D96FFE /* HHParameters.plist */; };
-		74DC809A1564664800D96FFE /* HHParameters.plist in Resources */ = {isa = PBXBuildFile; fileRef = 74DC806B1564659500D96FFE /* HHParameters.plist */; };
-		74DC809C1564665200D96FFE /* HHParameters.plist in Resources */ = {isa = PBXBuildFile; fileRef = 74DC806B1564659500D96FFE /* HHParameters.plist */; };
-		74DC809E1564665F00D96FFE /* HHParameters.plist in Resources */ = {isa = PBXBuildFile; fileRef = 74DC806B1564659500D96FFE /* HHParameters.plist */; };
-		74DC80A01564666800D96FFE /* HHParameters.plist in Resources */ = {isa = PBXBuildFile; fileRef = 74DC806B1564659500D96FFE /* HHParameters.plist */; };
-		74DC80A21564667100D96FFE /* HHParameters.plist in Resources */ = {isa = PBXBuildFile; fileRef = 74DC806B1564659500D96FFE /* HHParameters.plist */; };
-		74DC80A41564667B00D96FFE /* HHParameters.plist in Resources */ = {isa = PBXBuildFile; fileRef = 74DC806B1564659500D96FFE /* HHParameters.plist */; };
-		74DC80A61564668300D96FFE /* HHParameters.plist in Resources */ = {isa = PBXBuildFile; fileRef = 74DC806B1564659500D96FFE /* HHParameters.plist */; };
-		74DC80A81564668D00D96FFE /* HHParameters.plist in Resources */ = {isa = PBXBuildFile; fileRef = 74DC806B1564659500D96FFE /* HHParameters.plist */; };
-		74DC80AA1564669700D96FFE /* HHParameters.plist in Resources */ = {isa = PBXBuildFile; fileRef = 74DC806B1564659500D96FFE /* HHParameters.plist */; };
 		74DC80AC156466D900D96FFE /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74DC80AB156466D900D96FFE /* CoreLocation.framework */; };
 		74DC80AE156466E900D96FFE /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74DC80AD156466E800D96FFE /* iAd.framework */; };
 		74DC80B11564670900D96FFE /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 74DC80AF1564670900D96FFE /* icon.png */; };
@@ -128,6 +146,46 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		74B4BFA4156C2D7200E35598 /* Arrow-Fleurdelis.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Arrow-Fleurdelis.png"; sourceTree = "<group>"; };
+		74B4BFA6156C2D7200E35598 /* asaig-marble.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "asaig-marble.png"; sourceTree = "<group>"; };
+		74B4BFAA156C2E8900E35598 /* Banner-Arrow-tribalcross.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Banner-Arrow-tribalcross.png"; sourceTree = "<group>"; };
+		74B4BFAB156C2E8900E35598 /* Banner-asaig-marble.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Banner-asaig-marble.png"; sourceTree = "<group>"; };
+		74B4BFAC156C2E8900E35598 /* Banner-asaig-pavement.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Banner-asaig-pavement.png"; sourceTree = "<group>"; };
+		74B4BFB0156C2E9800E35598 /* Banner-classic-chain.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Banner-classic-chain.png"; sourceTree = "<group>"; };
+		74B4BFB1156C2E9800E35598 /* Banner-classic-leath.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Banner-classic-leath.png"; sourceTree = "<group>"; };
+		74B4BFB2156C2E9800E35598 /* Banner-classic-marble.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Banner-classic-marble.png"; sourceTree = "<group>"; };
+		74B4BFB3156C2E9800E35598 /* Banner-classic-parch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Banner-classic-parch.png"; sourceTree = "<group>"; };
+		74B4BFB4156C2E9800E35598 /* Banner-classic-pavement.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Banner-classic-pavement.png"; sourceTree = "<group>"; };
+		74B4BFB5156C2E9800E35598 /* Banner-classic-pinkfl.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Banner-classic-pinkfl.png"; sourceTree = "<group>"; };
+		74B4BFB6156C2E9800E35598 /* Banner-classic-tile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Banner-classic-tile.png"; sourceTree = "<group>"; };
+		74B4BFB7156C2E9800E35598 /* Banner-colorstar-chain.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Banner-colorstar-chain.png"; sourceTree = "<group>"; };
+		74B4BFB8156C2E9800E35598 /* Banner-colorstar-leath.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Banner-colorstar-leath.png"; sourceTree = "<group>"; };
+		74B4BFB9156C2E9800E35598 /* Banner-colorstar-marble.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Banner-colorstar-marble.png"; sourceTree = "<group>"; };
+		74B4BFBA156C2E9800E35598 /* Banner-colorstar-parch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Banner-colorstar-parch.png"; sourceTree = "<group>"; };
+		74B4BFBB156C2E9800E35598 /* Banner-colorstar-pavement.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Banner-colorstar-pavement.png"; sourceTree = "<group>"; };
+		74B4BFBC156C2E9800E35598 /* Banner-colorstar-pinkfl.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Banner-colorstar-pinkfl.png"; sourceTree = "<group>"; };
+		74B4BFBD156C2E9800E35598 /* Banner-colorstar-tile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Banner-colorstar-tile.png"; sourceTree = "<group>"; };
+		74B4BFCC156C2EAA00E35598 /* Banner-cress-marble.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Banner-cress-marble.png"; sourceTree = "<group>"; };
+		74B4BFCD156C2EAA00E35598 /* Banner-rucomp-marble.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Banner-rucomp-marble.png"; sourceTree = "<group>"; };
+		74B4BFCE156C2EAA00E35598 /* Banner-rucomp-pave.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Banner-rucomp-pave.png"; sourceTree = "<group>"; };
+		74B4BFCF156C2EAA00E35598 /* Banner-Stain-glass-window.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Banner-Stain-glass-window.png"; sourceTree = "<group>"; };
+		74B4BFD0156C2EAA00E35598 /* Banner-Stdav-marble.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Banner-Stdav-marble.png"; sourceTree = "<group>"; };
+		74B4BFD1156C2EAA00E35598 /* Banner-Stdav-tile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Banner-Stdav-tile.png"; sourceTree = "<group>"; };
+		74B4BFD8156C2EB500E35598 /* classic-chain.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "classic-chain.png"; sourceTree = "<group>"; };
+		74B4BFD9156C2EB500E35598 /* classic-leath.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "classic-leath.png"; sourceTree = "<group>"; };
+		74B4BFDA156C2EB500E35598 /* classic-marble.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "classic-marble.png"; sourceTree = "<group>"; };
+		74B4BFDB156C2EB500E35598 /* classic-parch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "classic-parch.png"; sourceTree = "<group>"; };
+		74B4BFDC156C2EB500E35598 /* classic-pavement.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "classic-pavement.png"; sourceTree = "<group>"; };
+		74B4BFDD156C2EB500E35598 /* classic-pinkfl.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "classic-pinkfl.png"; sourceTree = "<group>"; };
+		74B4BFDE156C2EB500E35598 /* classic-tile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "classic-tile.png"; sourceTree = "<group>"; };
+		74B4BFE6156C2EC400E35598 /* colorstar-marble.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "colorstar-marble.png"; sourceTree = "<group>"; };
+		74B4BFE7156C2EC400E35598 /* cress-marble.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cress-marble.png"; sourceTree = "<group>"; };
+		74B4BFEA156C2EF800E35598 /* Rucomp-marble.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Rucomp-marble.png"; sourceTree = "<group>"; };
+		74B4BFEB156C2EF800E35598 /* Stain-glass-window.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Stain-glass-window.png"; sourceTree = "<group>"; };
+		74B4BFEC156C2EF800E35598 /* Stdav-marble.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Stdav-marble.png"; sourceTree = "<group>"; };
+		74B4BFF0156C2FFA00E35598 /* Arrow-tribalcross.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Arrow-tribalcross.png"; sourceTree = "<group>"; };
+		74B4BFF2156C333D00E35598 /* Banner-Arrow-Fleurdelis.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Banner-Arrow-Fleurdelis.png"; sourceTree = "<group>"; };
+		74B4C000156C3A5B00E35598 /* HHParameters.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = HHParameters.plist; sourceTree = "<group>"; };
 		74DC7FB3156464BE00D96FFE /* HolyCompass.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HolyCompass.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		74DC7FB7156464BE00D96FFE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		74DC7FB9156464BE00D96FFE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -164,12 +222,6 @@
 		74DC7FE61564657700D96FFE /* Banner-asaig-pave.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Banner-asaig-pave.png"; sourceTree = "<group>"; };
 		74DC7FE71564657700D96FFE /* Banner-asaig-pinkfl.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Banner-asaig-pinkfl.png"; sourceTree = "<group>"; };
 		74DC7FE81564657700D96FFE /* Banner-asaig-tile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Banner-asaig-tile.png"; sourceTree = "<group>"; };
-		74DC7FE91564657700D96FFE /* Banner-colorstar-chain.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Banner-colorstar-chain.png"; sourceTree = "<group>"; };
-		74DC7FEA1564657700D96FFE /* Banner-colorstar-leath.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Banner-colorstar-leath.png"; sourceTree = "<group>"; };
-		74DC7FEB1564657700D96FFE /* Banner-colorstar-parch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Banner-colorstar-parch.png"; sourceTree = "<group>"; };
-		74DC7FEC1564657700D96FFE /* Banner-colorstar-pavement.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Banner-colorstar-pavement.png"; sourceTree = "<group>"; };
-		74DC7FED1564657700D96FFE /* Banner-colorstar-pinkfl.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Banner-colorstar-pinkfl.png"; sourceTree = "<group>"; };
-		74DC7FEE1564657700D96FFE /* Banner-colorstar-tile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Banner-colorstar-tile.png"; sourceTree = "<group>"; };
 		74DC7FEF1564657700D96FFE /* Banner-cress-chain.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Banner-cress-chain.png"; sourceTree = "<group>"; };
 		74DC7FF01564657700D96FFE /* Banner-cress-leath.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Banner-cress-leath.png"; sourceTree = "<group>"; };
 		74DC7FF11564657700D96FFE /* Banner-cress-parch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Banner-cress-parch.png"; sourceTree = "<group>"; };
@@ -203,7 +255,6 @@
 		74DC800D1564657700D96FFE /* cress-pavement.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cress-pavement.png"; sourceTree = "<group>"; };
 		74DC800E1564657700D96FFE /* cress-pinkfl.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cress-pinkfl.png"; sourceTree = "<group>"; };
 		74DC800F1564657700D96FFE /* cress-tile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cress-tile.png"; sourceTree = "<group>"; };
-		74DC80101564657700D96FFE /* dash-wood.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dash-wood.png"; sourceTree = "<group>"; };
 		74DC80111564657700D96FFE /* Rucomp-chain.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Rucomp-chain.png"; sourceTree = "<group>"; };
 		74DC80121564657700D96FFE /* Rucomp-leath.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Rucomp-leath.png"; sourceTree = "<group>"; };
 		74DC80131564657700D96FFE /* Rucomp-parch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Rucomp-parch.png"; sourceTree = "<group>"; };
@@ -216,7 +267,6 @@
 		74DC801A1564657700D96FFE /* Stdav-pavement.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Stdav-pavement.png"; sourceTree = "<group>"; };
 		74DC801B1564657700D96FFE /* Stdav-pinkfl.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Stdav-pinkfl.png"; sourceTree = "<group>"; };
 		74DC801C1564657700D96FFE /* Stdav-tile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Stdav-tile.png"; sourceTree = "<group>"; };
-		74DC806B1564659500D96FFE /* HHParameters.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = HHParameters.plist; sourceTree = "<group>"; };
 		74DC806D156465A600D96FFE /* MKImageListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKImageListViewController.h; sourceTree = "<group>"; };
 		74DC806E156465A600D96FFE /* MKImageListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKImageListViewController.m; sourceTree = "<group>"; };
 		74DC806F156465A600D96FFE /* MKImageViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKImageViewCell.h; sourceTree = "<group>"; };
@@ -337,8 +387,8 @@
 		74DC7FBE156464BE00D96FFE /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				74B4C000156C3A5B00E35598 /* HHParameters.plist */,
 				74DC80891564660800D96FFE /* Localizable.strings */,
-				74DC806B1564659500D96FFE /* HHParameters.plist */,
 				74DC7FBF156464BE00D96FFE /* HolyCompass-Info.plist */,
 				74DC7FC0156464BE00D96FFE /* InfoPlist.strings */,
 				74DC7FC3156464BE00D96FFE /* main.m */,
@@ -350,87 +400,119 @@
 		74DC7FCE1564657700D96FFE /* Assets */ = {
 			isa = PBXGroup;
 			children = (
-				74DC80B91564823400D96FFE /* ParchmentSimplecompass.png */,
-				74DC8083156465B700D96FFE /* tricoin.png */,
-				74DC8084156465B700D96FFE /* wood dash thin.png */,
 				74DC7FCF1564657700D96FFE /* Arrow-BlueDot.png */,
 				74DC7FD01564657700D96FFE /* Arrow-Cross.png */,
+				74B4BFA4156C2D7200E35598 /* Arrow-Fleurdelis.png */,
 				74DC7FD11564657700D96FFE /* Arrow-Islamic.png */,
 				74DC7FD21564657700D96FFE /* Arrow-Oz.png */,
 				74DC7FD31564657700D96FFE /* Arrow-saig.png */,
 				74DC7FD41564657700D96FFE /* Arrow-StarOfDavid.png */,
 				74DC7FD51564657700D96FFE /* Arrow-techno.png */,
+				74B4BFF0156C2FFA00E35598 /* Arrow-tribalcross.png */,
 				74DC7FD61564657700D96FFE /* asaig-chain.png */,
 				74DC7FD71564657700D96FFE /* asaig-leath.png */,
+				74B4BFA6156C2D7200E35598 /* asaig-marble.png */,
 				74DC7FD81564657700D96FFE /* asaig-parch.png */,
 				74DC7FD91564657700D96FFE /* asaig-pave.png */,
 				74DC7FDA1564657700D96FFE /* asaig-pinkfl.png */,
 				74DC7FDB1564657700D96FFE /* asaig-tile.png */,
 				74DC7FDC1564657700D96FFE /* Banner-Arrow-BlueDot.png */,
 				74DC7FDD1564657700D96FFE /* Banner-Arrow-Cross.png */,
+				74B4BFF2156C333D00E35598 /* Banner-Arrow-Fleurdelis.png */,
 				74DC7FDE1564657700D96FFE /* Banner-Arrow-Islamic.png */,
 				74DC7FDF1564657700D96FFE /* Banner-Arrow-Oz.png */,
 				74DC7FE01564657700D96FFE /* Banner-Arrow-saig.png */,
 				74DC7FE11564657700D96FFE /* Banner-Arrow-StarOfDavid.png */,
 				74DC7FE21564657700D96FFE /* Banner-Arrow-techno.png */,
+				74B4BFAA156C2E8900E35598 /* Banner-Arrow-tribalcross.png */,
 				74DC7FE31564657700D96FFE /* Banner-asaig-chain.png */,
 				74DC7FE41564657700D96FFE /* Banner-asaig-leath.png */,
+				74B4BFAB156C2E8900E35598 /* Banner-asaig-marble.png */,
 				74DC7FE51564657700D96FFE /* Banner-asaig-parch.png */,
 				74DC7FE61564657700D96FFE /* Banner-asaig-pave.png */,
+				74B4BFAC156C2E8900E35598 /* Banner-asaig-pavement.png */,
 				74DC7FE71564657700D96FFE /* Banner-asaig-pinkfl.png */,
 				74DC7FE81564657700D96FFE /* Banner-asaig-tile.png */,
-				74DC7FE91564657700D96FFE /* Banner-colorstar-chain.png */,
-				74DC7FEA1564657700D96FFE /* Banner-colorstar-leath.png */,
-				74DC7FEB1564657700D96FFE /* Banner-colorstar-parch.png */,
-				74DC7FEC1564657700D96FFE /* Banner-colorstar-pavement.png */,
-				74DC7FED1564657700D96FFE /* Banner-colorstar-pinkfl.png */,
-				74DC7FEE1564657700D96FFE /* Banner-colorstar-tile.png */,
+				74B4BFB0156C2E9800E35598 /* Banner-classic-chain.png */,
+				74B4BFB1156C2E9800E35598 /* Banner-classic-leath.png */,
+				74B4BFB2156C2E9800E35598 /* Banner-classic-marble.png */,
+				74B4BFB3156C2E9800E35598 /* Banner-classic-parch.png */,
+				74B4BFB4156C2E9800E35598 /* Banner-classic-pavement.png */,
+				74B4BFB5156C2E9800E35598 /* Banner-classic-pinkfl.png */,
+				74B4BFB6156C2E9800E35598 /* Banner-classic-tile.png */,
+				74B4BFB7156C2E9800E35598 /* Banner-colorstar-chain.png */,
+				74B4BFB8156C2E9800E35598 /* Banner-colorstar-leath.png */,
+				74B4BFB9156C2E9800E35598 /* Banner-colorstar-marble.png */,
+				74B4BFBA156C2E9800E35598 /* Banner-colorstar-parch.png */,
+				74B4BFBB156C2E9800E35598 /* Banner-colorstar-pavement.png */,
+				74B4BFBC156C2E9800E35598 /* Banner-colorstar-pinkfl.png */,
+				74B4BFBD156C2E9800E35598 /* Banner-colorstar-tile.png */,
 				74DC7FEF1564657700D96FFE /* Banner-cress-chain.png */,
 				74DC7FF01564657700D96FFE /* Banner-cress-leath.png */,
+				74B4BFCC156C2EAA00E35598 /* Banner-cress-marble.png */,
 				74DC7FF11564657700D96FFE /* Banner-cress-parch.png */,
 				74DC7FF21564657700D96FFE /* Banner-cress-pavement.png */,
 				74DC7FF31564657700D96FFE /* Banner-cress-pinkfl.png */,
 				74DC7FF41564657700D96FFE /* Banner-cress-tile.png */,
 				74DC7FF51564657700D96FFE /* Banner-Rucomp-chain.png */,
 				74DC7FF61564657700D96FFE /* Banner-Rucomp-leath.png */,
+				74B4BFCD156C2EAA00E35598 /* Banner-rucomp-marble.png */,
 				74DC7FF71564657700D96FFE /* Banner-Rucomp-parch.png */,
+				74B4BFCE156C2EAA00E35598 /* Banner-rucomp-pave.png */,
 				74DC7FF81564657700D96FFE /* Banner-Rucomp-pavement.png */,
 				74DC7FF91564657700D96FFE /* Banner-Rucomp-pinkfl.png */,
 				74DC7FFA1564657700D96FFE /* Banner-Rucomp-tile.png */,
+				74B4BFCF156C2EAA00E35598 /* Banner-Stain-glass-window.png */,
 				74DC7FFB1564657700D96FFE /* Banner-Stdav-chain.png */,
 				74DC7FFC1564657700D96FFE /* Banner-Stdav-leath.png */,
+				74B4BFD0156C2EAA00E35598 /* Banner-Stdav-marble.png */,
 				74DC7FFD1564657700D96FFE /* Banner-Stdav-parch.png */,
 				74DC7FFE1564657700D96FFE /* Banner-Stdav-pavement.png */,
 				74DC7FFF1564657700D96FFE /* Banner-Stdav-pinkfl.png */,
+				74B4BFD1156C2EAA00E35598 /* Banner-Stdav-tile.png */,
+				74B4BFD8156C2EB500E35598 /* classic-chain.png */,
+				74B4BFD9156C2EB500E35598 /* classic-leath.png */,
+				74B4BFDA156C2EB500E35598 /* classic-marble.png */,
+				74B4BFDB156C2EB500E35598 /* classic-parch.png */,
+				74B4BFDC156C2EB500E35598 /* classic-pavement.png */,
+				74B4BFDD156C2EB500E35598 /* classic-pinkfl.png */,
+				74B4BFDE156C2EB500E35598 /* classic-tile.png */,
 				74DC80001564657700D96FFE /* Coin-Arrow.png */,
 				74DC80011564657700D96FFE /* coin-sigma.png */,
 				74DC80021564657700D96FFE /* coin-Starofdavid.png */,
 				74DC80031564657700D96FFE /* coin-techno.png */,
 				74DC80041564657700D96FFE /* colorstar-chain.png */,
 				74DC80051564657700D96FFE /* colorstar-leath.png */,
+				74B4BFE6156C2EC400E35598 /* colorstar-marble.png */,
 				74DC80061564657700D96FFE /* colorstar-parch.png */,
 				74DC80071564657700D96FFE /* colorstar-pavement.png */,
 				74DC80081564657700D96FFE /* colorstar-pinkfl.png */,
 				74DC80091564657700D96FFE /* colorstar-tile.png */,
 				74DC800A1564657700D96FFE /* cress-chain.png */,
 				74DC800B1564657700D96FFE /* cress-leath.png */,
+				74B4BFE7156C2EC400E35598 /* cress-marble.png */,
 				74DC800C1564657700D96FFE /* cress-parch.png */,
 				74DC800D1564657700D96FFE /* cress-pavement.png */,
 				74DC800E1564657700D96FFE /* cress-pinkfl.png */,
 				74DC800F1564657700D96FFE /* cress-tile.png */,
-				74DC80101564657700D96FFE /* dash-wood.png */,
+				74DC80B91564823400D96FFE /* ParchmentSimplecompass.png */,
 				74DC80111564657700D96FFE /* Rucomp-chain.png */,
 				74DC80121564657700D96FFE /* Rucomp-leath.png */,
+				74B4BFEA156C2EF800E35598 /* Rucomp-marble.png */,
 				74DC80131564657700D96FFE /* Rucomp-parch.png */,
 				74DC80141564657700D96FFE /* Rucomp-pavement.png */,
 				74DC80151564657700D96FFE /* Rucomp-pinkfl.png */,
 				74DC80161564657700D96FFE /* Rucomp-tile.png */,
+				74B4BFEB156C2EF800E35598 /* Stain-glass-window.png */,
 				74DC80171564657700D96FFE /* Stdav-chain.png */,
 				74DC80181564657700D96FFE /* Stdav-leath.png */,
+				74B4BFEC156C2EF800E35598 /* Stdav-marble.png */,
 				74DC80191564657700D96FFE /* Stdav-parch.png */,
 				74DC801A1564657700D96FFE /* Stdav-pavement.png */,
 				74DC801B1564657700D96FFE /* Stdav-pinkfl.png */,
 				74DC801C1564657700D96FFE /* Stdav-tile.png */,
+				74DC8083156465B700D96FFE /* tricoin.png */,
+				74DC8084156465B700D96FFE /* wood dash thin.png */,
 			);
 			path = Assets;
 			sourceTree = "<group>";
@@ -528,12 +610,6 @@
 				74DC80341564657700D96FFE /* Banner-asaig-pave.png in Resources */,
 				74DC80351564657700D96FFE /* Banner-asaig-pinkfl.png in Resources */,
 				74DC80361564657700D96FFE /* Banner-asaig-tile.png in Resources */,
-				74DC80371564657700D96FFE /* Banner-colorstar-chain.png in Resources */,
-				74DC80381564657700D96FFE /* Banner-colorstar-leath.png in Resources */,
-				74DC80391564657700D96FFE /* Banner-colorstar-parch.png in Resources */,
-				74DC803A1564657700D96FFE /* Banner-colorstar-pavement.png in Resources */,
-				74DC803B1564657700D96FFE /* Banner-colorstar-pinkfl.png in Resources */,
-				74DC803C1564657700D96FFE /* Banner-colorstar-tile.png in Resources */,
 				74DC803D1564657700D96FFE /* Banner-cress-chain.png in Resources */,
 				74DC803E1564657700D96FFE /* Banner-cress-leath.png in Resources */,
 				74DC803F1564657700D96FFE /* Banner-cress-parch.png in Resources */,
@@ -567,7 +643,6 @@
 				74DC805B1564657700D96FFE /* cress-pavement.png in Resources */,
 				74DC805C1564657700D96FFE /* cress-pinkfl.png in Resources */,
 				74DC805D1564657700D96FFE /* cress-tile.png in Resources */,
-				74DC805E1564657700D96FFE /* dash-wood.png in Resources */,
 				74DC805F1564657700D96FFE /* Rucomp-chain.png in Resources */,
 				74DC80601564657700D96FFE /* Rucomp-leath.png in Resources */,
 				74DC80611564657700D96FFE /* Rucomp-parch.png in Resources */,
@@ -580,7 +655,6 @@
 				74DC80681564657700D96FFE /* Stdav-pavement.png in Resources */,
 				74DC80691564657700D96FFE /* Stdav-pinkfl.png in Resources */,
 				74DC806A1564657700D96FFE /* Stdav-tile.png in Resources */,
-				74DC806C1564659500D96FFE /* HHParameters.plist in Resources */,
 				74DC807D156465A600D96FFE /* MKOptionsView_iPhone.xib in Resources */,
 				74DC8085156465B700D96FFE /* PureImageCell.xib in Resources */,
 				74DC8086156465B700D96FFE /* SubImageCell.xib in Resources */,
@@ -588,23 +662,49 @@
 				74DC8088156465B700D96FFE /* wood dash thin.png in Resources */,
 				74DC808D1564660800D96FFE /* Localizable.strings in Resources */,
 				74DC808E1564660800D96FFE /* MKViewController_iPhone.xib in Resources */,
-				74DC80901564662300D96FFE /* HHParameters.plist in Resources */,
-				74DC80921564662A00D96FFE /* HHParameters.plist in Resources */,
-				74DC80941564663100D96FFE /* HHParameters.plist in Resources */,
-				74DC80961564663900D96FFE /* HHParameters.plist in Resources */,
-				74DC80981564664100D96FFE /* HHParameters.plist in Resources */,
-				74DC809A1564664800D96FFE /* HHParameters.plist in Resources */,
-				74DC809C1564665200D96FFE /* HHParameters.plist in Resources */,
-				74DC809E1564665F00D96FFE /* HHParameters.plist in Resources */,
-				74DC80A01564666800D96FFE /* HHParameters.plist in Resources */,
-				74DC80A21564667100D96FFE /* HHParameters.plist in Resources */,
-				74DC80A41564667B00D96FFE /* HHParameters.plist in Resources */,
-				74DC80A61564668300D96FFE /* HHParameters.plist in Resources */,
-				74DC80A81564668D00D96FFE /* HHParameters.plist in Resources */,
-				74DC80AA1564669700D96FFE /* HHParameters.plist in Resources */,
 				74DC80B11564670900D96FFE /* icon.png in Resources */,
 				74DC80B21564670900D96FFE /* icon@2x.png in Resources */,
 				74DC80BA1564823400D96FFE /* ParchmentSimplecompass.png in Resources */,
+				74B4BFA7156C2D7200E35598 /* Arrow-Fleurdelis.png in Resources */,
+				74B4BFA9156C2D7200E35598 /* asaig-marble.png in Resources */,
+				74B4BFAD156C2E8900E35598 /* Banner-Arrow-tribalcross.png in Resources */,
+				74B4BFAE156C2E8900E35598 /* Banner-asaig-marble.png in Resources */,
+				74B4BFAF156C2E8900E35598 /* Banner-asaig-pavement.png in Resources */,
+				74B4BFBE156C2E9800E35598 /* Banner-classic-chain.png in Resources */,
+				74B4BFBF156C2E9800E35598 /* Banner-classic-leath.png in Resources */,
+				74B4BFC0156C2E9800E35598 /* Banner-classic-marble.png in Resources */,
+				74B4BFC1156C2E9800E35598 /* Banner-classic-parch.png in Resources */,
+				74B4BFC2156C2E9800E35598 /* Banner-classic-pavement.png in Resources */,
+				74B4BFC3156C2E9800E35598 /* Banner-classic-pinkfl.png in Resources */,
+				74B4BFC4156C2E9800E35598 /* Banner-classic-tile.png in Resources */,
+				74B4BFC5156C2E9800E35598 /* Banner-colorstar-chain.png in Resources */,
+				74B4BFC6156C2E9800E35598 /* Banner-colorstar-leath.png in Resources */,
+				74B4BFC7156C2E9800E35598 /* Banner-colorstar-marble.png in Resources */,
+				74B4BFC8156C2E9800E35598 /* Banner-colorstar-parch.png in Resources */,
+				74B4BFC9156C2E9800E35598 /* Banner-colorstar-pavement.png in Resources */,
+				74B4BFCA156C2E9800E35598 /* Banner-colorstar-pinkfl.png in Resources */,
+				74B4BFCB156C2E9800E35598 /* Banner-colorstar-tile.png in Resources */,
+				74B4BFD2156C2EAA00E35598 /* Banner-cress-marble.png in Resources */,
+				74B4BFD3156C2EAA00E35598 /* Banner-rucomp-marble.png in Resources */,
+				74B4BFD4156C2EAA00E35598 /* Banner-rucomp-pave.png in Resources */,
+				74B4BFD5156C2EAA00E35598 /* Banner-Stain-glass-window.png in Resources */,
+				74B4BFD6156C2EAA00E35598 /* Banner-Stdav-marble.png in Resources */,
+				74B4BFD7156C2EAA00E35598 /* Banner-Stdav-tile.png in Resources */,
+				74B4BFDF156C2EB500E35598 /* classic-chain.png in Resources */,
+				74B4BFE0156C2EB500E35598 /* classic-leath.png in Resources */,
+				74B4BFE1156C2EB500E35598 /* classic-marble.png in Resources */,
+				74B4BFE2156C2EB500E35598 /* classic-parch.png in Resources */,
+				74B4BFE3156C2EB500E35598 /* classic-pavement.png in Resources */,
+				74B4BFE4156C2EB500E35598 /* classic-pinkfl.png in Resources */,
+				74B4BFE5156C2EB500E35598 /* classic-tile.png in Resources */,
+				74B4BFE8156C2EC400E35598 /* colorstar-marble.png in Resources */,
+				74B4BFE9156C2EC400E35598 /* cress-marble.png in Resources */,
+				74B4BFED156C2EF800E35598 /* Rucomp-marble.png in Resources */,
+				74B4BFEE156C2EF800E35598 /* Stain-glass-window.png in Resources */,
+				74B4BFEF156C2EF800E35598 /* Stdav-marble.png in Resources */,
+				74B4BFF1156C2FFA00E35598 /* Arrow-tribalcross.png in Resources */,
+				74B4BFF3156C333D00E35598 /* Banner-Arrow-Fleurdelis.png in Resources */,
+				74B4C001156C3A5B00E35598 /* HHParameters.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -756,6 +856,7 @@
 				74DC7FCD156464BE00D96FFE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
