@@ -57,11 +57,20 @@
     MKSpecialLocation* jerusalem = [MKSpecialLocation specialLocationWithCoordsAndName:CLLocationCoordinate2DMake(31.777992, 35.235364) Name:NSLocalizedString(@"JERUSALEM", nil)];
     MKSpecialLocation* mecca = [MKSpecialLocation specialLocationWithCoordsAndName:CLLocationCoordinate2DMake(21.421831, 39.826298) Name:NSLocalizedString(@"MECCA", nil)];
     MKSpecialLocation* vatican = [MKSpecialLocation specialLocationWithCoordsAndName:CLLocationCoordinate2DMake(41.902133, 12.453411) Name:NSLocalizedString(@"VATICAN", nil)];
+    MKSpecialLocation* bethlehem = [MKSpecialLocation specialLocationWithCoordsAndName:CLLocationCoordinate2DMake(31.704274, 35.20733) Name:NSLocalizedString(@"BETHLEHEM", nil)];
+    MKSpecialLocation* varanasi = [MKSpecialLocation specialLocationWithCoordsAndName:CLLocationCoordinate2DMake(25.283196, 82.960167) Name:NSLocalizedString(@"VARANASI", nil)];
+    MKSpecialLocation* axum = [MKSpecialLocation specialLocationWithCoordsAndName:CLLocationCoordinate2DMake(14.129704, 38.719543) Name:NSLocalizedString(@"AXUM", nil)];
+    MKSpecialLocation* saltlake = [MKSpecialLocation specialLocationWithCoordsAndName:CLLocationCoordinate2DMake(40.770451, -111.892008) Name:NSLocalizedString(@"SALTLAKE", nil)];
+    MKSpecialLocation* angkorwat = [MKSpecialLocation specialLocationWithCoordsAndName:CLLocationCoordinate2DMake(13.412539, 103.866763) Name:NSLocalizedString(@"ANGKORWAT", nil)];
+    MKSpecialLocation* mexico = [MKSpecialLocation specialLocationWithCoordsAndName:CLLocationCoordinate2DMake(19.690817, -98.846708) Name:NSLocalizedString(@"TEOTIHUACAN", nil)];
+    MKSpecialLocation* bodhgaya = [MKSpecialLocation specialLocationWithCoordsAndName:CLLocationCoordinate2DMake(24.696006, 84.99135) Name:NSLocalizedString(@"BODHGAYA", nil)];
+    MKSpecialLocation* giza = [MKSpecialLocation specialLocationWithCoordsAndName:CLLocationCoordinate2DMake(29.977836, 31.131649) Name:NSLocalizedString(@"PYRAMIDS", nil)];
+    MKSpecialLocation* stonehenge = [MKSpecialLocation specialLocationWithCoordsAndName:CLLocationCoordinate2DMake(51.178765, -1.825919) Name:NSLocalizedString(@"STONEHENGE", nil)];
+    MKSpecialLocation* neworleans = [MKSpecialLocation specialLocationWithCoordsAndName:CLLocationCoordinate2DMake(29.961416, -90.067321) Name:NSLocalizedString(@"NEWORLEANS", nil)];
     
+//    MKSpecialLocation* test = [MKSpecialLocation specialLocationWithCoordsAndName:CLLocationCoordinate2DMake(34.633208,-120.344238) Name:@"test"];
     
-    MKSpecialLocation* test = [MKSpecialLocation specialLocationWithCoordsAndName:CLLocationCoordinate2DMake(34.633208,-120.344238) Name:@"test"];
-    
-    CityLocations = [NSArray arrayWithObjects:jerusalem, mecca, vatican, test, nil];
+    CityLocations = [NSArray arrayWithObjects:jerusalem, mecca, vatican, bethlehem, varanasi, axum, saltlake, angkorwat, mexico, bodhgaya, giza, stonehenge, neworleans, nil];
     
     cityDist = 0.0;
     cityLocData = nil;

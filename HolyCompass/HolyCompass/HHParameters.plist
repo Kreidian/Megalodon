@@ -8,7 +8,6 @@
 		<string>BgPack2</string>
 		<string>BgPack3d</string>
 		<string>BgPack4</string>
-		<string>BgPack5</string>
 		<string>PPack1</string>
 		<string>AdRemoval</string>
 	</array>
@@ -48,13 +47,6 @@
 		<string>Rucomp-tile</string>
 		<string>Rucomp-pinkfl</string>
 		<string>Rucomp-marble</string>
-		<string>colorstar-chain</string>
-		<string>colorstar-leath</string>
-		<string>colorstar-parch</string>
-		<string>colorstar-marble</string>
-		<string>colorstar-pavement</string>
-		<string>colorstar-pinkfl</string>
-		<string>colorstar-tile</string>
 		<string>Stdav-chain</string>
 		<string>Stdav-leath</string>
 		<string>Stdav-parch</string>
@@ -100,48 +92,34 @@
 		<string>BgPack2</string>
 		<key>Rucomp-tile</key>
 		<string>BgPack2</string>
-		<key>colorstar-chain</key>
-		<string>BgPack3d</string>
-		<key>colorstar-leath</key>
-		<string>BgPack3d</string>
-		<key>colorstar-parch</key>
-		<string>BgPack3d</string>
-		<key>colorstar-marble</key>
-		<string>BgPack3d</string>
-		<key>colorstar-pavement</key>
-		<string>BgPack3d</string>
-		<key>colorstar-pinkfl</key>
-		<string>BgPack3d</string>
-		<key>colorstar-tile</key>
-		<string>BgPack3d</string>
 		<key>Stdav-chain</key>
-		<string>BgPack4</string>
+		<string>BgPack3d</string>
 		<key>Stdav-leath</key>
-		<string>BgPack4</string>
+		<string>BgPack3d</string>
 		<key>Stdav-parch</key>
-		<string>BgPack4</string>
+		<string>BgPack3d</string>
 		<key>Stdav-marble</key>
-		<string>BgPack4</string>
+		<string>BgPack3d</string>
 		<key>Stdav-pavement</key>
-		<string>BgPack4</string>
+		<string>BgPack3d</string>
 		<key>Stdav-pinkfl</key>
-		<string>BgPack4</string>
+		<string>BgPack3d</string>
 		<key>Stdav-tile</key>
-		<string>BgPack4</string>
+		<string>BgPack3d</string>
 		<key>cress-chain</key>
-		<string>BgPack5</string>
+		<string>BgPack4</string>
 		<key>cress-leath</key>
-		<string>BgPack5</string>
+		<string>BgPack4</string>
 		<key>cress-parch</key>
-		<string>BgPack5</string>
+		<string>BgPack4</string>
 		<key>cress-marble</key>
-		<string>BgPack5</string>
+		<string>BgPack4</string>
 		<key>cress-pavement</key>
-		<string>BgPack5</string>
+		<string>BgPack4</string>
 		<key>cress-pinkfl</key>
-		<string>BgPack5</string>
+		<string>BgPack4</string>
 		<key>cress-tile</key>
-		<string>BgPack5</string>
+		<string>BgPack4</string>
 		<key>Arrow-Cross</key>
 		<string>PPack1</string>
 		<key>Arrow-Islamic</key>
