@@ -5,3 +5,49 @@
   Created by Eitan Levy on 4/30/12.
   Copyright (c) 2012 info. All rights reserved.
 */
+
+"OPTIONS" = "opciones";
+"REMOVEADS" = "Quitar anuncios";
+"CITY" = "Seleccione la ciudad para mirar";
+"BACKGROUND" = "Seleccione un fondo";
+"POINTER" = "Seleccione el puntero";
+"CURRBG" = "Fondo";
+"CURRPTR" = "Puntero";
+"PRESICION" = "Precisión de Título de nivel";
+"BEST" = "Mejor Posible";
+"BETTER" = "Mejor";
+"GOOD" = "Muy Bueno";
+"ENOUGH" = "Bueno";
+"SETTINGS" = "Configuración de distancia";
+"DISTANCE" = "Mostra Distancia";
+"MILES" = "Mostra Distancia en: Millas";
+"KILOMETERS" = "Mostra Distancia en: Kilómetros";
+
+"LOCERROR" = "Servicios de Localización Apagado";
+"LOCERRMSG1" = "Esta aplicación necesita este servicio habilitado para funcionar correctamente.";
+"LOCERRMSG2" = "Por favor, vaya a Configuración y activa el Servicio de Localización para esta aplicación.";
+
+"FREE" = "Gratis";
+"PACK" = "Paquete";
+
+"BGPACK" = "Paquete de Fondo";
+"PPACK" = "Paquete de Punteros";
+
+"BGMENU" = "Fondos";
+"PTRMENU" = "Punteros";
+
+"PURCHASING" = "Comprando";
+
+"JERUSALEM" = "Jerusalem";
+"MECCA" = "Mecca, Qiblah";
+"VATICAN" = "Vatican";
+"BETHLEHEM" = "Bethlehem";
+"VARANASI" = "Varanasi, India";
+"SALTLAKE" = "Salt Lake City, Utah";
+"ANGKORWAT" = "Angkor Wat, Cambodia";
+"AXUM" = "Axum, Ethiopia";
+"TEOTIHUACAN" = "Teotihuacán, Mexico";
+"BODHGAYA" = "Bodhgaya, India";
+"PYRAMIDS" = "Pirámides de Giza";
+"STONEHENGE" = "Stonehenge";
+"NEWORLEANS" = "Nueva Orleáns";

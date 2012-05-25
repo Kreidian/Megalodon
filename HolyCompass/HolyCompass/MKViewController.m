@@ -243,7 +243,7 @@
                      completion:^(BOOL finished){
                          if (myStatus == kCLAuthorizationStatusDenied || ![CLLocationManager locationServicesEnabled])
                          {
-                             UIAlertView* alert = [[UIAlertView alloc] initWithTitle:@"Location Services Disabled" message:@"This app need this service to be enabled in order to funciton properly.\nPlease go to Settings and turn on Location Service for this app." delegate:self cancelButtonTitle:@"OK" otherButtonTitles: nil];
+                             UIAlertView* alert = [[UIAlertView alloc] initWithTitle:NSLocalizedString(@"LOCERROR", nil) message:[NSString stringWithFormat:@"%@\n%@", NSLocalizedString(@"LOCERRMSG1", nil), NSLocalizedString(@"LOCERRMSG2", nil)] delegate:self cancelButtonTitle:@"OK" otherButtonTitles: nil];
                              [alert show];
                          }
                              }];

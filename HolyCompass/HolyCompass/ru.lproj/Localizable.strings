@@ -5,3 +5,49 @@
   Created by Eitan Levy on 4/30/12.
   Copyright (c) 2012 info. All rights reserved.
 */
+
+"OPTIONS" = "опции";
+"REMOVEADS" = "Удалить объявления";
+"CITY" = "Выберите город к лицу";
+"BACKGROUND" = "Выберите фон";
+"POINTER" = "Выберите указатель";
+"CURRBG" = "Выберите фон";
+"CURRPTR" = "Выберите указатель";
+"PRESICION" = "Заголовок уровень точности";
+"BEST" = "Лучший Возможный";
+"BETTER" = "лучше";
+"GOOD" = "Очень хорошо";
+"ENOUGH" = "хорошо";
+"SETTINGS" = "Расстояние Настройки";
+"DISTANCE" = "Показать Расстояние";
+"MILES" = "Показать Расстояние: Miles";
+"KILOMETERS" = "Показать Расстояние: километры";
+
+"LOCERROR" = "Расположение Услуги выключен";
+"LOCERRMSG1" = "Это приложение должно эта услуга должна быть включена для того, чтобы нормально функционировать.";
+"LOCERRMSG2" = "Пожалуйста, перейдите в настройки и включить Место службы для данного приложения.";
+
+"FREE" = "бесплатно";
+"PACK" = "упаковка";
+
+"BGPACK" = "Фон пакет";
+"PPACK" = "Указатели пакет";
+
+"BGMENU" = "Фон";
+"PTRMENU" = "Указатели";
+
+"PURCHASING" = "покупка";
+
+"JERUSALEM" = "Jerusalem";
+"MECCA" = "Mecca, Qiblah";
+"VATICAN" = "Vatican";
+"BETHLEHEM" = "Bethlehem";
+"VARANASI" = "Varanasi, India";
+"SALTLAKE" = "Salt Lake City, Utah";
+"ANGKORWAT" = "Angkor Wat, Cambodia";
+"AXUM" = "Axum, Ethiopia";
+"TEOTIHUACAN" = "Teotihuacán, Mexico";
+"BODHGAYA" = "Bodhgaya, India";
+"PYRAMIDS" = "Giza Pyramids";
+"STONEHENGE" = "Stonehenge";
+"NEWORLEANS" = "New Orleans";

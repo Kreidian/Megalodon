@@ -85,7 +85,7 @@
     [[SKPaymentQueue defaultQueue] addTransactionObserver:self];
     [[SKPaymentQueue defaultQueue] addPayment:payment];
     
-    loading = [[UIAlertView alloc] initWithTitle:@"Purchasing..." message:nil delegate:self cancelButtonTitle:nil otherButtonTitles: nil];
+    loading = [[UIAlertView alloc] initWithTitle:NSLocalizedString(@"PURCHASING", nil) message:nil delegate:self cancelButtonTitle:nil otherButtonTitles: nil];
     [loading show];
     
     UIActivityIndicatorView *indicator = [[UIActivityIndicatorView alloc] initWithActivityIndicatorStyle:UIActivityIndicatorViewStyleWhiteLarge];

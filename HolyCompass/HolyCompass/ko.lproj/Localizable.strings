@@ -5,3 +5,49 @@
   Created by Eitan Levy on 4/30/12.
   Copyright (c) 2012 info. All rights reserved.
 */
+
+"OPTIONS" = "옵션";
+"REMOVEADS" = "광고 제거";
+"CITY" = "얼굴을하는 도시를 선택하십시오";
+"BACKGROUND" = "배경을 선택";
+"POINTER" = "포인터를 선택하세요";
+"CURRBG" = "배경을 선택";
+"CURRPTR" = "포인터를 선택하세요";
+"PRESICION" = "정밀 수준을 제목";
+"BEST" = "최상";
+"BETTER" = "더 나은";
+"GOOD" = "매우 좋은";
+"ENOUGH" = "좋은";
+"SETTINGS" = "거리 설정";
+"DISTANCE" = "거리 표시";
+"MILES" = "에 거리 표시 : 마일리지";
+"KILOMETERS" = "에 거리 표시 : 킬로미터";
+
+"LOCERROR" = "위치 서비스가 비활성 화됨";
+"LOCERRMSG1" = "이 응용 프로그램은 제대로 작동하기 위해서는 활성화되어이 서비스를 필요합니다";
+"LOCERRMSG2" = "설정으로 이동하고이 응용 프로그램의 위치 서비스를 설정하시기 바랍니다";
+
+"FREE" = "무료의";
+"PACK" = "한 벌";
+
+"BGPACK" = "배경 패키지";
+"PPACK" = "포인터 패키지";
+
+"BGMENU" = "배경";
+"PTRMENU" = "포인터";
+
+"PURCHASING" = "구입하기";
+
+"JERUSALEM" = "예루살렘";
+"MECCA" = "메카";
+"VATICAN" = "바티칸";
+"BETHLEHEM" = "베들레헴";
+"VARANASI" = "인도 바라나시";
+"SALTLAKE" = "솔트 레이크 시티, 유타";
+"ANGKORWAT" = "앙코르 와트, 캄보디아";
+"AXUM" = "Axum, 에티오피아";
+"TEOTIHUACAN" = "Teotihuacán, 멕시코";
+"BODHGAYA" = "Bodhgaya, 인도";
+"PYRAMIDS" = "기자 피라미드";
+"STONEHENGE" = "스톤헨지";
+"NEWORLEANS" = "뉴올리언스";
