@@ -1,0 +1,53 @@
+/* 
+  Localizable.strings
+  HolyHeading
+
+  Created by Eitan Levy on 4/30/12.
+  Copyright (c) 2012 info. All rights reserved.
+*/
+
+"OPTIONS" = "alternativ";
+"REMOVEADS" = "avlägsna annonser";
+"CITY" = "SVälj vilken stad mot ansikte";
+"BACKGROUND" = "Välj en bakgrund";
+"POINTER" = "Välj din pekaren";
+"CURRBG" = "Bakgrund";
+"CURRPTR" = "Pekaren";
+"PRESICION" = "Rubrik precision nivå";
+"BEST" = "bästa möjliga";
+"BETTER" = "bättre";
+"GOOD" = "mycket bra";
+"ENOUGH" = "bra";
+"SETTINGS" = "Avstånd Inställningar";
+"DISTANCE" = "Visa Avstånd";
+"MILES" = "Visa Avstånd i: miles";
+"KILOMETERS" = "Visa Avstånd: kilometer";
+
+"LOCERROR" = "Platstjänster Inaktiverad";
+"LOCERRMSG1" = "Denna applikation behöver denna tjänst vara aktiverat för att fungera korrekt.";
+"LOCERRMSG2" = "Gå till Inställningar och slå på olika orter Service för denna applikation.";
+
+"FREE" = "gratis";
+"PACK" = "paket";
+
+"BGPACK" = "Bakgrund Paketet";
+"PPACK" = "Pekaren Paketet";
+
+"BGMENU" = "Bakgrund";
+"PTRMENU" = "Pekaren";
+
+"PURCHASING" = "inköp";
+
+"JERUSALEM" = "Jerusalem";
+"MECCA" = "Mecca, Qiblah";
+"VATICAN" = "Vatican";
+"BETHLEHEM" = "Bethlehem";
+"VARANASI" = "Varanasi, India";
+"SALTLAKE" = "Salt Lake City, Utah";
+"ANGKORWAT" = "Angkor Wat, Cambodia";
+"AXUM" = "Axum, Ethiopia";
+"TEOTIHUACAN" = "Teotihuacán, Mexico";
+"BODHGAYA" = "Bodhgaya, India";
+"PYRAMIDS" = "Giza Pyramids";
+"STONEHENGE" = "Stonehenge";
+"NEWORLEANS" = "New Orleans";

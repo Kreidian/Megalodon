@@ -1,0 +1,53 @@
+/* 
+  Localizable.strings
+  HolyHeading
+
+  Created by Eitan Levy on 4/30/12.
+  Copyright (c) 2012 info. All rights reserved.
+*/
+
+"OPTIONS" = "optionen";
+"REMOVEADS" = "Werbung ausblenden";
+"CITY" = "Wählen Sie die Stadt zu Angesicht";
+"BACKGROUND" = "Wählen Sie einen Hintergrund";
+"POINTER" = "Wählen Sie Ihre Pointer";
+"CURRBG" = "Hintergrund";
+"CURRPTR" = "Pointer";
+"PRESICION" = "Unterwegs Präzisions-Stufe";
+"BEST" = "bestmöglich";
+"BETTER" = "besser";
+"GOOD" = "sehr Gut";
+"ENOUGH" = "gut";
+"SETTINGS" = "Entfernung Einstellungen";
+"DISTANCE" = "Zeige Entfernung";
+"MILES" = "Anzeige der zurückgelegten Entfernung in: Miles";
+"KILOMETERS" = "Anzeige der zurückgelegten Entfernung in: Kilometer";
+
+"LOCERROR" = "Lage Dienstleistungen ausgeschaltet";
+"LOCERRMSG1" = "Diese Anwendung benötigt diesen Service aktiviert sein, um ordnungsgemäß funktionieren werden.";
+"LOCERRMSG2" = "Bitte gehen Sie auf Einstellungen und schalten Sie Location Service für diese Anwendung.";
+
+"FREE" = "Kostenlos";
+"PACK" = "Paket";
+
+"BGPACK" = "Hintergrund Paket";
+"PPACK" = "Zeiger-Paket";
+
+"BGMENU" = "Hintergrund";
+"PTRMENU" = "Pointers";
+
+"PURCHASING" = "Einkauf";
+
+"JERUSALEM" = "Jerusalem";
+"MECCA" = "Mecca, Qiblah";
+"VATICAN" = "Vatican";
+"BETHLEHEM" = "Bethlehem";
+"VARANASI" = "Varanasi, India";
+"SALTLAKE" = "Salt Lake City, Utah";
+"ANGKORWAT" = "Angkor Wat, Cambodia";
+"AXUM" = "Axum, Ethiopia";
+"TEOTIHUACAN" = "Teotihuacán, Mexico";
+"BODHGAYA" = "Bodhgaya, India";
+"PYRAMIDS" = "Giza Pyramids";
+"STONEHENGE" = "Stonehenge";
+"NEWORLEANS" = "New Orleans";

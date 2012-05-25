@@ -1,0 +1,53 @@
+/* 
+  Localizable.strings
+  HolyHeading
+
+  Created by Eitan Levy on 4/30/12.
+  Copyright (c) 2012 info. All rights reserved.
+*/
+
+"OPTIONS" = "विकल्प";
+"REMOVEADS" = "विज्ञापन निकालें";
+"CITY" = "जो शहर का चेहरा के लिए चुनें";
+"BACKGROUND" = "एक पृष्ठभूमि का चयन करें";
+"POINTER" = "अपने सूचक का चयन करें";
+"CURRBG" = "एक पृष्ठभूमि का चयन करें";
+"CURRPTR" = "अपने सूचक का चयन करें";
+"PRESICION" = "प्रेसिजन स्तर शीर्षक";
+"BEST" = "श्रेष्ठ संभव";
+"BETTER" = "बेहतर";
+"GOOD" = "बहुत अच्छा";
+"ENOUGH" = "अच्छा";
+"SETTINGS" = "दूरी सेटिंग्स";
+"DISTANCE" = "दूरी दिखाएँ";
+"MILES" = "में दूरी दिखाएँ: मील";
+"KILOMETERS" = "दूरी दिखाएँ: किलोमीटर";
+
+"LOCERROR" = "स्थान सेवाएँ बंद कर दिया";
+"LOCERRMSG1" = "यह अनुप्रयोग इस सेवा की जरूरत करने के क्रम में ठीक ढंग से काम करने में सक्षम किया जा.";
+"LOCERRMSG2" = "सेटिंग्स पर जाएँ और इस आवेदन के लिए स्थान सेवा पर बारी.";
+
+"FREE" = "मुक्त करने के लिए";
+"PACK" = "बोझ";
+
+"BGPACK" = "पृष्ठभूमि पैकेज";
+"PPACK" = "सूचक पैकेज";
+
+"BGMENU" = "पृष्ठभूमि";
+"PTRMENU" = "सूचक";
+
+"PURCHASING" = "क्रय";
+
+"JERUSALEM" = "जेरूसलम";
+"MECCA" = "मक्का";
+"VATICAN" = "पादरी सरकार";
+"BETHLEHEM" = "बेथलेहम";
+"VARANASI" = "वाराणसी, भारत";
+"SALTLAKE" = "साल्ट लेक सिटी";
+"ANGKORWAT" = "अंगकोर वाट, कंबोडिया";
+"AXUM" = "Axum, इथियोपिया";
+"TEOTIHUACAN" = "Teotihuacán, मेक्सिको";
+"BODHGAYA" = "बोधगया, भारत";
+"PYRAMIDS" = "गीज़ा के पिरामिड";
+"STONEHENGE" = "Stonehenge";
+"NEWORLEANS" = "न्यू ऑर्लेअंस";

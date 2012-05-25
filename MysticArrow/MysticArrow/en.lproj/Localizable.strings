@@ -1,0 +1,53 @@
+/* 
+  Localizable.strings
+  HolyHeading
+
+  Created by Eitan Levy on 4/30/12.
+  Copyright (c) 2012 info. All rights reserved.
+*/
+
+"OPTIONS" = "options";
+"REMOVEADS" = "Remove Ads";
+"CITY" = "Select which City to Face";
+"BACKGROUND" = "Select a Background";
+"POINTER" = "Select your Pointer";
+"CURRBG" = "Current Background";
+"CURRPTR" = "Current Compass Pointer";
+"PRESICION" = "Heading Presicion Level";
+"BEST" = "Best Possible";
+"BETTER" = "Better";
+"GOOD" = "Very Good";
+"ENOUGH" = "Good";
+"SETTINGS" = "Distance Settings";
+"DISTANCE" = "Show Distance";
+"MILES" = "Show Distance in: Miles";
+"KILOMETERS" = "Show Distance in: Kilometers";
+
+"LOCERROR" = "Location Services Disabled";
+"LOCERRMSG1" = "This app need this service to be enabled in order to funciton properly.";
+"LOCERRMSG2" = "Please go to Settings and turn on Location Service for this app.";
+
+"FREE" = "Free";
+"PACK" = "Pack";
+
+"BGPACK" = "Background Pack";
+"PPACK" = "Pointers Pack";
+
+"BGMENU" = "Backgrounds";
+"PTRMENU" = "Pointers";
+
+"PURCHASING" = "purchasing";
+
+"JERUSALEM" = "Jerusalem";
+"MECCA" = "Mecca, Qiblah";
+"VATICAN" = "Vatican";
+"BETHLEHEM" = "Bethlehem";
+"VARANASI" = "Varanasi, India";
+"SALTLAKE" = "Salt Lake City, Utah";
+"ANGKORWAT" = "Angkor Wat, Cambodia";
+"AXUM" = "Axum, Ethiopia";
+"TEOTIHUACAN" = "Teotihuacán, Mexico";
+"BODHGAYA" = "Bodhgaya, India";
+"PYRAMIDS" = "Giza Pyramids";
+"STONEHENGE" = "Stonehenge";
+"NEWORLEANS" = "New Orleans";

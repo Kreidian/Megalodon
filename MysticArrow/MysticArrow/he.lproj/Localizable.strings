@@ -1,0 +1,53 @@
+/* 
+  Localizable.strings
+  HolyHeading
+
+  Created by Eitan Levy on 4/30/12.
+  Copyright (c) 2012 info. All rights reserved.
+*/
+
+"OPTIONS" = "אפשרויות";
+"REMOVEADS" = "להסיר מודעות";
+"CITY" = "את העיר אל מול פני";
+"BACKGROUND" = "בחר רקע";
+"POINTER" = "בחר את המצביע";
+"CURRBG" = "בחר רקע";
+"CURRPTR" = "בחר את המצביע";
+"PRESICION" = "כותרת הדיוק רמה";
+"BEST" = "הטוב ביותר האפשרי";
+"BETTER" = "מוטב";
+"GOOD" = "טוב מאוד";
+"ENOUGH" = "טוב";
+"SETTINGS" = "מרחק הגדרות";
+"DISTANCE" = "הצג מרחק";
+"MILES" = "הצג מרחק: מיילס";
+"KILOMETERS" = "הצג מרחק: קילומטר";
+
+"LOCERROR" = "שירותי מיקום כבוי";
+"LOCERRMSG1" = "יישום זה צריך את השירות הזה תהיה מאופשרת על מנת לתפקד כראוי.";
+"LOCERRMSG2" = "עבור אל הגדרות ולהפעיל את שירות הודעות עבור יישום זה.";
+
+"FREE" = "בחינם";
+"PACK" = "חבילה";
+
+"BGPACK" = "רקע חבילת";
+"PPACK" = "מצביעי חבילה";
+
+"BGMENU" = "רקע";
+"PTRMENU" = "מצביעי";
+
+"PURCHASING" = "רכישה";
+
+"JERUSALEM" = "יְרוּשָׁלַיִם‎‎";
+"MECCA" = "מכה";
+"VATICAN" = "הוותיקן";
+"BETHLEHEM" = "בֵּית לֶחֶם‎";
+"VARANASI" = "ורנאסי, הודו";
+"SALTLAKE" = "סולט לייק סיטי, יוטה";
+"ANGKORWAT" = "אנגקור ואט, קמבודיה";
+"AXUM" = "אקסום, אתיופיה";
+"TEOTIHUACAN" = "טאוטיהואקאן, מקסיקו";
+"BODHGAYA" = "בודגיה, הודו";
+"PYRAMIDS" = "הפירמידות בגיזה";
+"STONEHENGE" = "סטונהנג'";
+"NEWORLEANS" = "ניו אורלינס";

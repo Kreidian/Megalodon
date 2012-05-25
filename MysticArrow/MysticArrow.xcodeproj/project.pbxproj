@@ -1,0 +1,421 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		74B4C028156F49D600E35598 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74B4C027156F49D600E35598 /* UIKit.framework */; };
+		74B4C02A156F49D600E35598 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74B4C029156F49D600E35598 /* Foundation.framework */; };
+		74B4C02C156F49D600E35598 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74B4C02B156F49D600E35598 /* CoreGraphics.framework */; };
+		74B4C032156F49D600E35598 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 74B4C030156F49D600E35598 /* InfoPlist.strings */; };
+		74B4C034156F49D600E35598 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 74B4C033156F49D600E35598 /* main.m */; };
+		74B4C038156F49D600E35598 /* MKAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 74B4C037156F49D600E35598 /* MKAppDelegate.m */; };
+		74B4C044156F4A8100E35598 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 74B4C03E156F4A8100E35598 /* Localizable.strings */; };
+		74B4C045156F4A8100E35598 /* MKViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 74B4C040156F4A8100E35598 /* MKViewController_iPad.xib */; };
+		74B4C046156F4A8100E35598 /* MKViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 74B4C042156F4A8100E35598 /* MKViewController_iPhone.xib */; };
+		74B4C04B156F4AA400E35598 /* MysticArrow-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 74B4C02F156F49D600E35598 /* MysticArrow-Info.plist */; };
+		74B4C04D156F4AAC00E35598 /* MysticArrow-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 74B4C02F156F49D600E35598 /* MysticArrow-Info.plist */; };
+		74B4C04F156F4AB500E35598 /* MysticArrow-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 74B4C02F156F49D600E35598 /* MysticArrow-Info.plist */; };
+		74B4C051156F4ABE00E35598 /* MysticArrow-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 74B4C02F156F49D600E35598 /* MysticArrow-Info.plist */; };
+		74B4C053156F4AC600E35598 /* MysticArrow-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 74B4C02F156F49D600E35598 /* MysticArrow-Info.plist */; };
+		74B4C055156F4AD000E35598 /* MysticArrow-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 74B4C02F156F49D600E35598 /* MysticArrow-Info.plist */; };
+		74B4C057156F4AD700E35598 /* MysticArrow-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 74B4C02F156F49D600E35598 /* MysticArrow-Info.plist */; };
+		74B4C059156F4ADE00E35598 /* MysticArrow-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 74B4C02F156F49D600E35598 /* MysticArrow-Info.plist */; };
+		74B4C05B156F4AE500E35598 /* MysticArrow-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 74B4C02F156F49D600E35598 /* MysticArrow-Info.plist */; };
+		74B4C05D156F4AEC00E35598 /* MysticArrow-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 74B4C02F156F49D600E35598 /* MysticArrow-Info.plist */; };
+		74B4C05F156F4B0100E35598 /* MysticArrow-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 74B4C02F156F49D600E35598 /* MysticArrow-Info.plist */; };
+		74B4C061156F4B0A00E35598 /* MysticArrow-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 74B4C02F156F49D600E35598 /* MysticArrow-Info.plist */; };
+		74B4C063156F4B1400E35598 /* MysticArrow-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 74B4C02F156F49D600E35598 /* MysticArrow-Info.plist */; };
+		74B4C065156F4B1D00E35598 /* MysticArrow-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 74B4C02F156F49D600E35598 /* MysticArrow-Info.plist */; };
+		74B4C073156F4B3600E35598 /* MKImageListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 74B4C067156F4B3600E35598 /* MKImageListViewController.m */; };
+		74B4C074156F4B3600E35598 /* MKImageViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 74B4C069156F4B3600E35598 /* MKImageViewCell.m */; };
+		74B4C075156F4B3600E35598 /* MKInAppPurchaseManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 74B4C06B156F4B3600E35598 /* MKInAppPurchaseManager.m */; };
+		74B4C076156F4B3600E35598 /* MKOptionsView_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 74B4C06C156F4B3600E35598 /* MKOptionsView_iPhone.xib */; };
+		74B4C077156F4B3600E35598 /* MKOptionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 74B4C06E156F4B3600E35598 /* MKOptionsViewController.m */; };
+		74B4C078156F4B3600E35598 /* MKSpecialLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = 74B4C070156F4B3600E35598 /* MKSpecialLocation.m */; };
+		74B4C079156F4B3600E35598 /* MKViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 74B4C072156F4B3600E35598 /* MKViewController.m */; };
+		74B4C07C156F4B4D00E35598 /* PureImageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 74B4C07A156F4B4D00E35598 /* PureImageCell.xib */; };
+		74B4C07D156F4B4D00E35598 /* SubImageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 74B4C07B156F4B4D00E35598 /* SubImageCell.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		74B4C023156F49D600E35598 /* MysticArrow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MysticArrow.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		74B4C027156F49D600E35598 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		74B4C029156F49D600E35598 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		74B4C02B156F49D600E35598 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		74B4C02F156F49D600E35598 /* MysticArrow-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "MysticArrow-Info.plist"; sourceTree = "<group>"; };
+		74B4C031156F49D600E35598 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		74B4C033156F49D600E35598 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		74B4C035156F49D600E35598 /* MysticArrow-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MysticArrow-Prefix.pch"; sourceTree = "<group>"; };
+		74B4C036156F49D600E35598 /* MKAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MKAppDelegate.h; sourceTree = "<group>"; };
+		74B4C037156F49D600E35598 /* MKAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MKAppDelegate.m; sourceTree = "<group>"; };
+		74B4C03F156F4A8100E35598 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		74B4C041156F4A8100E35598 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MKViewController_iPad.xib; sourceTree = "<group>"; };
+		74B4C043156F4A8100E35598 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MKViewController_iPhone.xib; sourceTree = "<group>"; };
+		74B4C04A156F4AA400E35598 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/Localizable.strings; sourceTree = "<group>"; };
+		74B4C04C156F4AAC00E35598 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Localizable.strings; sourceTree = "<group>"; };
+		74B4C04E156F4AB500E35598 /* el */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = el; path = el.lproj/Localizable.strings; sourceTree = "<group>"; };
+		74B4C050156F4ABE00E35598 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
+		74B4C052156F4AC600E35598 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Localizable.strings; sourceTree = "<group>"; };
+		74B4C054156F4AD000E35598 /* he */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = he; path = he.lproj/Localizable.strings; sourceTree = "<group>"; };
+		74B4C056156F4AD700E35598 /* hi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = hi; path = hi.lproj/Localizable.strings; sourceTree = "<group>"; };
+		74B4C058156F4ADE00E35598 /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = it; path = it.lproj/Localizable.strings; sourceTree = "<group>"; };
+		74B4C05A156F4AE500E35598 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Localizable.strings; sourceTree = "<group>"; };
+		74B4C05C156F4AEC00E35598 /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ko; path = ko.lproj/Localizable.strings; sourceTree = "<group>"; };
+		74B4C05E156F4B0100E35598 /* pt */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pt; path = pt.lproj/Localizable.strings; sourceTree = "<group>"; };
+		74B4C060156F4B0A00E35598 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Localizable.strings; sourceTree = "<group>"; };
+		74B4C062156F4B1400E35598 /* sv */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = sv; path = sv.lproj/Localizable.strings; sourceTree = "<group>"; };
+		74B4C064156F4B1D00E35598 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		74B4C066156F4B3600E35598 /* MKImageListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKImageListViewController.h; sourceTree = "<group>"; };
+		74B4C067156F4B3600E35598 /* MKImageListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKImageListViewController.m; sourceTree = "<group>"; };
+		74B4C068156F4B3600E35598 /* MKImageViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKImageViewCell.h; sourceTree = "<group>"; };
+		74B4C069156F4B3600E35598 /* MKImageViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKImageViewCell.m; sourceTree = "<group>"; };
+		74B4C06A156F4B3600E35598 /* MKInAppPurchaseManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKInAppPurchaseManager.h; sourceTree = "<group>"; };
+		74B4C06B156F4B3600E35598 /* MKInAppPurchaseManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKInAppPurchaseManager.m; sourceTree = "<group>"; };
+		74B4C06C156F4B3600E35598 /* MKOptionsView_iPhone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MKOptionsView_iPhone.xib; sourceTree = "<group>"; };
+		74B4C06D156F4B3600E35598 /* MKOptionsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKOptionsViewController.h; sourceTree = "<group>"; };
+		74B4C06E156F4B3600E35598 /* MKOptionsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKOptionsViewController.m; sourceTree = "<group>"; };
+		74B4C06F156F4B3600E35598 /* MKSpecialLocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKSpecialLocation.h; sourceTree = "<group>"; };
+		74B4C070156F4B3600E35598 /* MKSpecialLocation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKSpecialLocation.m; sourceTree = "<group>"; };
+		74B4C071156F4B3600E35598 /* MKViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKViewController.h; sourceTree = "<group>"; };
+		74B4C072156F4B3600E35598 /* MKViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKViewController.m; sourceTree = "<group>"; };
+		74B4C07A156F4B4D00E35598 /* PureImageCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PureImageCell.xib; sourceTree = "<group>"; };
+		74B4C07B156F4B4D00E35598 /* SubImageCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SubImageCell.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		74B4C020156F49D600E35598 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74B4C028156F49D600E35598 /* UIKit.framework in Frameworks */,
+				74B4C02A156F49D600E35598 /* Foundation.framework in Frameworks */,
+				74B4C02C156F49D600E35598 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		74B4C018156F49D600E35598 = {
+			isa = PBXGroup;
+			children = (
+				74B4C02D156F49D600E35598 /* MysticArrow */,
+				74B4C026156F49D600E35598 /* Frameworks */,
+				74B4C024156F49D600E35598 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		74B4C024156F49D600E35598 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				74B4C023156F49D600E35598 /* MysticArrow.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		74B4C026156F49D600E35598 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				74B4C027156F49D600E35598 /* UIKit.framework */,
+				74B4C029156F49D600E35598 /* Foundation.framework */,
+				74B4C02B156F49D600E35598 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		74B4C02D156F49D600E35598 /* MysticArrow */ = {
+			isa = PBXGroup;
+			children = (
+				74B4C07A156F4B4D00E35598 /* PureImageCell.xib */,
+				74B4C07B156F4B4D00E35598 /* SubImageCell.xib */,
+				74B4C068156F4B3600E35598 /* MKImageViewCell.h */,
+				74B4C069156F4B3600E35598 /* MKImageViewCell.m */,
+				74B4C066156F4B3600E35598 /* MKImageListViewController.h */,
+				74B4C067156F4B3600E35598 /* MKImageListViewController.m */,
+				74B4C06A156F4B3600E35598 /* MKInAppPurchaseManager.h */,
+				74B4C06B156F4B3600E35598 /* MKInAppPurchaseManager.m */,
+				74B4C06C156F4B3600E35598 /* MKOptionsView_iPhone.xib */,
+				74B4C06D156F4B3600E35598 /* MKOptionsViewController.h */,
+				74B4C06E156F4B3600E35598 /* MKOptionsViewController.m */,
+				74B4C06F156F4B3600E35598 /* MKSpecialLocation.h */,
+				74B4C070156F4B3600E35598 /* MKSpecialLocation.m */,
+				74B4C071156F4B3600E35598 /* MKViewController.h */,
+				74B4C072156F4B3600E35598 /* MKViewController.m */,
+				74B4C040156F4A8100E35598 /* MKViewController_iPad.xib */,
+				74B4C042156F4A8100E35598 /* MKViewController_iPhone.xib */,
+				74B4C036156F49D600E35598 /* MKAppDelegate.h */,
+				74B4C037156F49D600E35598 /* MKAppDelegate.m */,
+				74B4C02E156F49D600E35598 /* Supporting Files */,
+			);
+			path = MysticArrow;
+			sourceTree = "<group>";
+		};
+		74B4C02E156F49D600E35598 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				74B4C03E156F4A8100E35598 /* Localizable.strings */,
+				74B4C02F156F49D600E35598 /* MysticArrow-Info.plist */,
+				74B4C030156F49D600E35598 /* InfoPlist.strings */,
+				74B4C033156F49D600E35598 /* main.m */,
+				74B4C035156F49D600E35598 /* MysticArrow-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		74B4C022156F49D600E35598 /* MysticArrow */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 74B4C03B156F49D600E35598 /* Build configuration list for PBXNativeTarget "MysticArrow" */;
+			buildPhases = (
+				74B4C01F156F49D600E35598 /* Sources */,
+				74B4C020156F49D600E35598 /* Frameworks */,
+				74B4C021156F49D600E35598 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MysticArrow;
+			productName = MysticArrow;
+			productReference = 74B4C023156F49D600E35598 /* MysticArrow.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		74B4C01A156F49D600E35598 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = MK;
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = info;
+			};
+			buildConfigurationList = 74B4C01D156F49D600E35598 /* Build configuration list for PBXProject "MysticArrow" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				ar,
+				de,
+				el,
+				es,
+				fr,
+				he,
+				hi,
+				it,
+				ja,
+				ko,
+				pt,
+				ru,
+				sv,
+				"zh-Hans",
+			);
+			mainGroup = 74B4C018156F49D600E35598;
+			productRefGroup = 74B4C024156F49D600E35598 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				74B4C022156F49D600E35598 /* MysticArrow */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		74B4C021156F49D600E35598 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74B4C032156F49D600E35598 /* InfoPlist.strings in Resources */,
+				74B4C044156F4A8100E35598 /* Localizable.strings in Resources */,
+				74B4C045156F4A8100E35598 /* MKViewController_iPad.xib in Resources */,
+				74B4C046156F4A8100E35598 /* MKViewController_iPhone.xib in Resources */,
+				74B4C04B156F4AA400E35598 /* MysticArrow-Info.plist in Resources */,
+				74B4C04D156F4AAC00E35598 /* MysticArrow-Info.plist in Resources */,
+				74B4C04F156F4AB500E35598 /* MysticArrow-Info.plist in Resources */,
+				74B4C051156F4ABE00E35598 /* MysticArrow-Info.plist in Resources */,
+				74B4C053156F4AC600E35598 /* MysticArrow-Info.plist in Resources */,
+				74B4C055156F4AD000E35598 /* MysticArrow-Info.plist in Resources */,
+				74B4C057156F4AD700E35598 /* MysticArrow-Info.plist in Resources */,
+				74B4C059156F4ADE00E35598 /* MysticArrow-Info.plist in Resources */,
+				74B4C05B156F4AE500E35598 /* MysticArrow-Info.plist in Resources */,
+				74B4C05D156F4AEC00E35598 /* MysticArrow-Info.plist in Resources */,
+				74B4C05F156F4B0100E35598 /* MysticArrow-Info.plist in Resources */,
+				74B4C061156F4B0A00E35598 /* MysticArrow-Info.plist in Resources */,
+				74B4C063156F4B1400E35598 /* MysticArrow-Info.plist in Resources */,
+				74B4C065156F4B1D00E35598 /* MysticArrow-Info.plist in Resources */,
+				74B4C076156F4B3600E35598 /* MKOptionsView_iPhone.xib in Resources */,
+				74B4C07C156F4B4D00E35598 /* PureImageCell.xib in Resources */,
+				74B4C07D156F4B4D00E35598 /* SubImageCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		74B4C01F156F49D600E35598 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74B4C034156F49D600E35598 /* main.m in Sources */,
+				74B4C038156F49D600E35598 /* MKAppDelegate.m in Sources */,
+				74B4C073156F4B3600E35598 /* MKImageListViewController.m in Sources */,
+				74B4C074156F4B3600E35598 /* MKImageViewCell.m in Sources */,
+				74B4C075156F4B3600E35598 /* MKInAppPurchaseManager.m in Sources */,
+				74B4C077156F4B3600E35598 /* MKOptionsViewController.m in Sources */,
+				74B4C078156F4B3600E35598 /* MKSpecialLocation.m in Sources */,
+				74B4C079156F4B3600E35598 /* MKViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		74B4C030156F49D600E35598 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				74B4C031156F49D600E35598 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		74B4C03E156F4A8100E35598 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				74B4C03F156F4A8100E35598 /* en */,
+				74B4C04A156F4AA400E35598 /* ar */,
+				74B4C04C156F4AAC00E35598 /* de */,
+				74B4C04E156F4AB500E35598 /* el */,
+				74B4C050156F4ABE00E35598 /* es */,
+				74B4C052156F4AC600E35598 /* fr */,
+				74B4C054156F4AD000E35598 /* he */,
+				74B4C056156F4AD700E35598 /* hi */,
+				74B4C058156F4ADE00E35598 /* it */,
+				74B4C05A156F4AE500E35598 /* ja */,
+				74B4C05C156F4AEC00E35598 /* ko */,
+				74B4C05E156F4B0100E35598 /* pt */,
+				74B4C060156F4B0A00E35598 /* ru */,
+				74B4C062156F4B1400E35598 /* sv */,
+				74B4C064156F4B1D00E35598 /* zh-Hans */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		74B4C040156F4A8100E35598 /* MKViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				74B4C041156F4A8100E35598 /* en */,
+			);
+			name = MKViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+		74B4C042156F4A8100E35598 /* MKViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				74B4C043156F4A8100E35598 /* en */,
+			);
+			name = MKViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		74B4C039156F49D600E35598 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		74B4C03A156F49D600E35598 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		74B4C03C156F49D600E35598 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MysticArrow/MysticArrow-Prefix.pch";
+				INFOPLIST_FILE = "MysticArrow/MysticArrow-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		74B4C03D156F49D600E35598 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MysticArrow/MysticArrow-Prefix.pch";
+				INFOPLIST_FILE = "MysticArrow/MysticArrow-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		74B4C01D156F49D600E35598 /* Build configuration list for PBXProject "MysticArrow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74B4C039156F49D600E35598 /* Debug */,
+				74B4C03A156F49D600E35598 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		74B4C03B156F49D600E35598 /* Build configuration list for PBXNativeTarget "MysticArrow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74B4C03C156F49D600E35598 /* Debug */,
+				74B4C03D156F49D600E35598 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 74B4C01A156F49D600E35598 /* Project object */;
+}

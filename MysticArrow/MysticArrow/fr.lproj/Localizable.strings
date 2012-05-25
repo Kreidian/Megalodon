@@ -1,0 +1,53 @@
+/* 
+  Localizable.strings
+  HolyHeading
+
+  Created by Eitan Levy on 4/30/12.
+  Copyright (c) 2012 info. All rights reserved.
+*/
+
+"OPTIONS" = "options";
+"REMOVEADS" = "Supprimer les annonces";
+"CITY" = "Sélectionnez la ville à Face";
+"BACKGROUND" = "Sélectionnez un arrière-plan";
+"POINTER" = "Sélectionnez votre pointeur";
+"CURRBG" = "Arrière-plan";
+"CURRPTR" = "Pointeur";
+"PRESICION" = "Titre de niveau de précision";
+"BEST" = "Optimal";
+"BETTER" = "Mieux";
+"GOOD" = "Très bien";
+"ENOUGH" = "Bon";
+"SETTINGS" = "Réglages à distance";
+"DISTANCE" = "Afficher Distance";
+"MILES" = "Afficher plus populaires dans: Miles";
+"KILOMETERS" = "Afficher plus populaires dans: Kilomètres";
+
+"LOCERROR" = "Services de localisation éteint";
+"LOCERRMSG1" = "Cette application a besoin de ce service doit être activé pour pouvoir fonctionner correctement.";
+"LOCERRMSG2" = "S'il vous plaît allez dans Paramètres et activez la fonction de localisation pour cette application.";
+
+"FREE" = "Gratis";
+"PACK" = "Forfait";
+
+"BGPACK" = "Forfait de Base";
+"PPACK" = "Forfait Pointeurs";
+
+"BGMENU" = "Arrière-plan";
+"PTRMENU" = "Pointeurs";
+
+"PURCHASING" = "achat";
+
+"JERUSALEM" = "Jerusalem";
+"MECCA" = "Mecca, Qiblah";
+"VATICAN" = "Vatican";
+"BETHLEHEM" = "Bethlehem";
+"VARANASI" = "Varanasi, Inde";
+"SALTLAKE" = "Salt Lake City, Utah";
+"ANGKORWAT" = "Angkor Vat, Cambodge";
+"AXUM" = "Axum, en Ethiopie";
+"TEOTIHUACAN" = "Teotihuacán, Mexique";
+"BODHGAYA" = "Bodhgaya, Inde";
+"PYRAMIDS" = "Pyramides de Gizeh";
+"STONEHENGE" = "Stonehenge";
+"NEWORLEANS" = "La Nouvelle-Orléans";
