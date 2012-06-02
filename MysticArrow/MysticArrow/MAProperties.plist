@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Products</key>
+	<array>
+		<string>AdRemoval</string>
+	</array>
+	<key>Spookies</key>
+	<array>
+		<string>GHOST</string>
+		<string>FAIRY</string>
+		<string>ANGEL</string>
+		<string>DEMON</string>
+	</array>
+	<key>Themes</key>
+	<array>
+		<string>zodiac</string>
+	</array>
+</dict>
+</plist>

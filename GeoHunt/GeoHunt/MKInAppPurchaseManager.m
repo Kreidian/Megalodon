@@ -31,7 +31,7 @@
     
     if (!purchaseEnabled)
     {
-//        NSLog(@"Parental controls are enabled.");
+        NSLog(@"Parental controls are enabled.");
         return;
     }
     
@@ -61,12 +61,12 @@
     SKPayment* payment = nil;
     lastPurchase = name;
     
-//    NSLog(@"**>  %@", bundleName);
+    NSLog(@"**>  %@", bundleName);
     for (SKProduct* product in myProducts) {
-//        NSLog(@"%@", product.productIdentifier);
+        NSLog(@"%@", product.productIdentifier);
         if ([product.productIdentifier isEqualToString:bundleName])
         {
-//            NSLog(@"%@", product.productIdentifier);
+            NSLog(@"%@", product.productIdentifier);
             payment = [SKPayment paymentWithProduct:product];
             break;
         }
@@ -97,11 +97,11 @@
                                                         
 - (void)productsRequest:(SKProductsRequest *)request didReceiveResponse:(SKProductsResponse *)response
 {
-//    NSLog(@"invalids - %@", response.invalidProductIdentifiers);
+    NSLog(@"invalids - %@", response.invalidProductIdentifiers);
     
     myProducts = [NSArray arrayWithArray:response.products];
     
-//    NSLog(@"products - %@", myProducts);
+    NSLog(@"products - %@", myProducts);
 }
 
 -(void) paymentQueue:(SKPaymentQueue *)queue updatedTransactions:(NSArray *)transactions
@@ -110,10 +110,10 @@
     {
         switch (trans.transactionState) {
             case SKPaymentTransactionStatePurchasing:
-            //    NSLog(@"Purchasing - %@", trans);
+                NSLog(@"Purchasing - %@", trans);
                 break;
             case SKPaymentTransactionStatePurchased:
-            //    NSLog(@"Purchased! - %@", trans);
+                NSLog(@"Purchased! - %@", trans);
                 
                 [[SKPaymentQueue defaultQueue] finishTransaction:trans];
                 
@@ -121,15 +121,15 @@
                 
                 [self.delegate productDidPurchase:self.lastPurchase];
                 
-            //    NSLog(@"%@", trans.payment.productIdentifier);
+                NSLog(@"%@", trans.payment.productIdentifier);
                 
                 break;
                 
             case SKPaymentTransactionStateRestored:
                 
-            //    NSLog(@"Restored! - %@", trans);
+                NSLog(@"Restored! - %@", trans);
                 [[SKPaymentQueue defaultQueue] finishTransaction:trans];
-            //    NSLog(@"%@", trans.payment.productIdentifier);
+                NSLog(@"%@", trans.payment.productIdentifier);
                 
                 [self.delegate productDidPurchase:self.lastPurchase];
                 
@@ -140,7 +140,7 @@
                 [loading dismissWithClickedButtonIndex:0 animated:YES];
                 if (trans.error.code != SKErrorPaymentCancelled)
                 {
-             //       NSLog(@"Error! - %@", trans.error);
+                    NSLog(@"Error! - %@", trans.error);
                     UIAlertView* alert = [[UIAlertView alloc] initWithTitle:trans.error.localizedFailureReason message:trans.error.localizedDescription delegate:self cancelButtonTitle:@"OK" otherButtonTitles: nil];
                     [alert show];
                 }

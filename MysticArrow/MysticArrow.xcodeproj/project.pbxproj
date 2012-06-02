@@ -7,6 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		747C24171572B8ED007E5717 /* MAProperties.plist in Resources */ = {isa = PBXBuildFile; fileRef = 747C24161572B8ED007E5717 /* MAProperties.plist */; };
+		747C241B1572BA38007E5717 /* Arrow-Oz.png in Resources */ = {isa = PBXBuildFile; fileRef = 747C24191572BA38007E5717 /* Arrow-Oz.png */; };
+		747C241C1572BA38007E5717 /* Arrow-tribalcross.png in Resources */ = {isa = PBXBuildFile; fileRef = 747C241A1572BA38007E5717 /* Arrow-tribalcross.png */; };
+		747C241F1572ED11007E5717 /* MKImageViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 747C241E1572ED11007E5717 /* MKImageViewCell.m */; };
+		747C24221572F069007E5717 /* MKTargetsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 747C24211572F069007E5717 /* MKTargetsViewController.m */; };
+		747C24241572F08A007E5717 /* MKTargetsView_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 747C24231572F08A007E5717 /* MKTargetsView_iPhone.xib */; };
+		747C24271572F139007E5717 /* MKTargetInfoViewCtrl.m in Sources */ = {isa = PBXBuildFile; fileRef = 747C24261572F139007E5717 /* MKTargetInfoViewCtrl.m */; };
+		747C24291572F168007E5717 /* MKTargetInfoView_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 747C24281572F168007E5717 /* MKTargetInfoView_iPhone.xib */; };
+		747C242B15740399007E5717 /* MKCapturedImageView_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 747C242A15740399007E5717 /* MKCapturedImageView_iPhone.xib */; };
+		747C242E157403B8007E5717 /* MKCapturedImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 747C242D157403B8007E5717 /* MKCapturedImageViewController.m */; };
+		747C243815798D15007E5717 /* Twitter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 747C243715798D15007E5717 /* Twitter.framework */; };
 		74B4C028156F49D600E35598 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74B4C027156F49D600E35598 /* UIKit.framework */; };
 		74B4C02A156F49D600E35598 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74B4C029156F49D600E35598 /* Foundation.framework */; };
 		74B4C02C156F49D600E35598 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74B4C02B156F49D600E35598 /* CoreGraphics.framework */; };
@@ -16,22 +27,6 @@
 		74B4C044156F4A8100E35598 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 74B4C03E156F4A8100E35598 /* Localizable.strings */; };
 		74B4C045156F4A8100E35598 /* MKViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 74B4C040156F4A8100E35598 /* MKViewController_iPad.xib */; };
 		74B4C046156F4A8100E35598 /* MKViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 74B4C042156F4A8100E35598 /* MKViewController_iPhone.xib */; };
-		74B4C04B156F4AA400E35598 /* MysticArrow-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 74B4C02F156F49D600E35598 /* MysticArrow-Info.plist */; };
-		74B4C04D156F4AAC00E35598 /* MysticArrow-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 74B4C02F156F49D600E35598 /* MysticArrow-Info.plist */; };
-		74B4C04F156F4AB500E35598 /* MysticArrow-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 74B4C02F156F49D600E35598 /* MysticArrow-Info.plist */; };
-		74B4C051156F4ABE00E35598 /* MysticArrow-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 74B4C02F156F49D600E35598 /* MysticArrow-Info.plist */; };
-		74B4C053156F4AC600E35598 /* MysticArrow-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 74B4C02F156F49D600E35598 /* MysticArrow-Info.plist */; };
-		74B4C055156F4AD000E35598 /* MysticArrow-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 74B4C02F156F49D600E35598 /* MysticArrow-Info.plist */; };
-		74B4C057156F4AD700E35598 /* MysticArrow-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 74B4C02F156F49D600E35598 /* MysticArrow-Info.plist */; };
-		74B4C059156F4ADE00E35598 /* MysticArrow-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 74B4C02F156F49D600E35598 /* MysticArrow-Info.plist */; };
-		74B4C05B156F4AE500E35598 /* MysticArrow-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 74B4C02F156F49D600E35598 /* MysticArrow-Info.plist */; };
-		74B4C05D156F4AEC00E35598 /* MysticArrow-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 74B4C02F156F49D600E35598 /* MysticArrow-Info.plist */; };
-		74B4C05F156F4B0100E35598 /* MysticArrow-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 74B4C02F156F49D600E35598 /* MysticArrow-Info.plist */; };
-		74B4C061156F4B0A00E35598 /* MysticArrow-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 74B4C02F156F49D600E35598 /* MysticArrow-Info.plist */; };
-		74B4C063156F4B1400E35598 /* MysticArrow-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 74B4C02F156F49D600E35598 /* MysticArrow-Info.plist */; };
-		74B4C065156F4B1D00E35598 /* MysticArrow-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 74B4C02F156F49D600E35598 /* MysticArrow-Info.plist */; };
-		74B4C073156F4B3600E35598 /* MKImageListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 74B4C067156F4B3600E35598 /* MKImageListViewController.m */; };
-		74B4C074156F4B3600E35598 /* MKImageViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 74B4C069156F4B3600E35598 /* MKImageViewCell.m */; };
 		74B4C075156F4B3600E35598 /* MKInAppPurchaseManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 74B4C06B156F4B3600E35598 /* MKInAppPurchaseManager.m */; };
 		74B4C076156F4B3600E35598 /* MKOptionsView_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 74B4C06C156F4B3600E35598 /* MKOptionsView_iPhone.xib */; };
 		74B4C077156F4B3600E35598 /* MKOptionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 74B4C06E156F4B3600E35598 /* MKOptionsViewController.m */; };
@@ -39,14 +34,36 @@
 		74B4C079156F4B3600E35598 /* MKViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 74B4C072156F4B3600E35598 /* MKViewController.m */; };
 		74B4C07C156F4B4D00E35598 /* PureImageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 74B4C07A156F4B4D00E35598 /* PureImageCell.xib */; };
 		74B4C07D156F4B4D00E35598 /* SubImageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 74B4C07B156F4B4D00E35598 /* SubImageCell.xib */; };
+		74C54B1015705FB40004DCDA /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74C54B0F15705FB40004DCDA /* StoreKit.framework */; };
+		74C54B1315705FBC0004DCDA /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74C54B1215705FBC0004DCDA /* iAd.framework */; };
+		74C54B1515705FC50004DCDA /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74C54B1415705FC50004DCDA /* CoreLocation.framework */; };
+		74C54B1A157177AC0004DCDA /* ParchmentSimplecompass.png in Resources */ = {isa = PBXBuildFile; fileRef = 74C54B16157177AC0004DCDA /* ParchmentSimplecompass.png */; };
+		74C54B1B157177AC0004DCDA /* ParchmentSimplecompass2.png in Resources */ = {isa = PBXBuildFile; fileRef = 74C54B17157177AC0004DCDA /* ParchmentSimplecompass2.png */; };
+		74C54B1C157177AC0004DCDA /* tricoin.png in Resources */ = {isa = PBXBuildFile; fileRef = 74C54B18157177AC0004DCDA /* tricoin.png */; };
+		74C54B1D157177AC0004DCDA /* wood dash thin.png in Resources */ = {isa = PBXBuildFile; fileRef = 74C54B19157177AC0004DCDA /* wood dash thin.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		747C24161572B8ED007E5717 /* MAProperties.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = MAProperties.plist; sourceTree = "<group>"; };
+		747C24191572BA38007E5717 /* Arrow-Oz.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Arrow-Oz.png"; sourceTree = "<group>"; };
+		747C241A1572BA38007E5717 /* Arrow-tribalcross.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Arrow-tribalcross.png"; sourceTree = "<group>"; };
+		747C241D1572ED11007E5717 /* MKImageViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKImageViewCell.h; sourceTree = "<group>"; };
+		747C241E1572ED11007E5717 /* MKImageViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKImageViewCell.m; sourceTree = "<group>"; };
+		747C24201572F069007E5717 /* MKTargetsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKTargetsViewController.h; sourceTree = "<group>"; };
+		747C24211572F069007E5717 /* MKTargetsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKTargetsViewController.m; sourceTree = "<group>"; };
+		747C24231572F08A007E5717 /* MKTargetsView_iPhone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MKTargetsView_iPhone.xib; sourceTree = "<group>"; };
+		747C24251572F139007E5717 /* MKTargetInfoViewCtrl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKTargetInfoViewCtrl.h; sourceTree = "<group>"; };
+		747C24261572F139007E5717 /* MKTargetInfoViewCtrl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKTargetInfoViewCtrl.m; sourceTree = "<group>"; };
+		747C24281572F168007E5717 /* MKTargetInfoView_iPhone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MKTargetInfoView_iPhone.xib; sourceTree = "<group>"; };
+		747C242A15740399007E5717 /* MKCapturedImageView_iPhone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MKCapturedImageView_iPhone.xib; sourceTree = "<group>"; };
+		747C242C157403B8007E5717 /* MKCapturedImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKCapturedImageViewController.h; sourceTree = "<group>"; };
+		747C242D157403B8007E5717 /* MKCapturedImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKCapturedImageViewController.m; sourceTree = "<group>"; };
+		747C242F15745267007E5717 /* MysticArrow-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MysticArrow-Info.plist"; sourceTree = "<group>"; };
+		747C243715798D15007E5717 /* Twitter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Twitter.framework; path = System/Library/Frameworks/Twitter.framework; sourceTree = SDKROOT; };
 		74B4C023156F49D600E35598 /* MysticArrow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MysticArrow.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		74B4C027156F49D600E35598 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		74B4C029156F49D600E35598 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		74B4C02B156F49D600E35598 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		74B4C02F156F49D600E35598 /* MysticArrow-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "MysticArrow-Info.plist"; sourceTree = "<group>"; };
 		74B4C031156F49D600E35598 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		74B4C033156F49D600E35598 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		74B4C035156F49D600E35598 /* MysticArrow-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MysticArrow-Prefix.pch"; sourceTree = "<group>"; };
@@ -69,10 +86,6 @@
 		74B4C060156F4B0A00E35598 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Localizable.strings; sourceTree = "<group>"; };
 		74B4C062156F4B1400E35598 /* sv */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = sv; path = sv.lproj/Localizable.strings; sourceTree = "<group>"; };
 		74B4C064156F4B1D00E35598 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
-		74B4C066156F4B3600E35598 /* MKImageListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKImageListViewController.h; sourceTree = "<group>"; };
-		74B4C067156F4B3600E35598 /* MKImageListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKImageListViewController.m; sourceTree = "<group>"; };
-		74B4C068156F4B3600E35598 /* MKImageViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKImageViewCell.h; sourceTree = "<group>"; };
-		74B4C069156F4B3600E35598 /* MKImageViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKImageViewCell.m; sourceTree = "<group>"; };
 		74B4C06A156F4B3600E35598 /* MKInAppPurchaseManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKInAppPurchaseManager.h; sourceTree = "<group>"; };
 		74B4C06B156F4B3600E35598 /* MKInAppPurchaseManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKInAppPurchaseManager.m; sourceTree = "<group>"; };
 		74B4C06C156F4B3600E35598 /* MKOptionsView_iPhone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MKOptionsView_iPhone.xib; sourceTree = "<group>"; };
@@ -84,6 +97,13 @@
 		74B4C072156F4B3600E35598 /* MKViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKViewController.m; sourceTree = "<group>"; };
 		74B4C07A156F4B4D00E35598 /* PureImageCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PureImageCell.xib; sourceTree = "<group>"; };
 		74B4C07B156F4B4D00E35598 /* SubImageCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SubImageCell.xib; sourceTree = "<group>"; };
+		74C54B0F15705FB40004DCDA /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		74C54B1215705FBC0004DCDA /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
+		74C54B1415705FC50004DCDA /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		74C54B16157177AC0004DCDA /* ParchmentSimplecompass.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ParchmentSimplecompass.png; sourceTree = "<group>"; };
+		74C54B17157177AC0004DCDA /* ParchmentSimplecompass2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ParchmentSimplecompass2.png; sourceTree = "<group>"; };
+		74C54B18157177AC0004DCDA /* tricoin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tricoin.png; sourceTree = "<group>"; };
+		74C54B19157177AC0004DCDA /* wood dash thin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "wood dash thin.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +111,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				747C243815798D15007E5717 /* Twitter.framework in Frameworks */,
+				74C54B1515705FC50004DCDA /* CoreLocation.framework in Frameworks */,
+				74C54B1315705FBC0004DCDA /* iAd.framework in Frameworks */,
+				74C54B1015705FB40004DCDA /* StoreKit.framework in Frameworks */,
 				74B4C028156F49D600E35598 /* UIKit.framework in Frameworks */,
 				74B4C02A156F49D600E35598 /* Foundation.framework in Frameworks */,
 				74B4C02C156F49D600E35598 /* CoreGraphics.framework in Frameworks */,
@@ -120,6 +144,10 @@
 		74B4C026156F49D600E35598 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				747C243715798D15007E5717 /* Twitter.framework */,
+				74C54B1415705FC50004DCDA /* CoreLocation.framework */,
+				74C54B1215705FBC0004DCDA /* iAd.framework */,
+				74C54B0F15705FB40004DCDA /* StoreKit.framework */,
 				74B4C027156F49D600E35598 /* UIKit.framework */,
 				74B4C029156F49D600E35598 /* Foundation.framework */,
 				74B4C02B156F49D600E35598 /* CoreGraphics.framework */,
@@ -130,12 +158,25 @@
 		74B4C02D156F49D600E35598 /* MysticArrow */ = {
 			isa = PBXGroup;
 			children = (
+				747C24191572BA38007E5717 /* Arrow-Oz.png */,
+				747C241A1572BA38007E5717 /* Arrow-tribalcross.png */,
+				74C54B16157177AC0004DCDA /* ParchmentSimplecompass.png */,
+				74C54B17157177AC0004DCDA /* ParchmentSimplecompass2.png */,
+				74C54B18157177AC0004DCDA /* tricoin.png */,
+				74C54B19157177AC0004DCDA /* wood dash thin.png */,
+				747C242C157403B8007E5717 /* MKCapturedImageViewController.h */,
+				747C242D157403B8007E5717 /* MKCapturedImageViewController.m */,
+				747C242A15740399007E5717 /* MKCapturedImageView_iPhone.xib */,
+				747C24251572F139007E5717 /* MKTargetInfoViewCtrl.h */,
+				747C24261572F139007E5717 /* MKTargetInfoViewCtrl.m */,
+				747C24281572F168007E5717 /* MKTargetInfoView_iPhone.xib */,
+				747C24201572F069007E5717 /* MKTargetsViewController.h */,
+				747C24211572F069007E5717 /* MKTargetsViewController.m */,
+				747C24231572F08A007E5717 /* MKTargetsView_iPhone.xib */,
+				747C241D1572ED11007E5717 /* MKImageViewCell.h */,
+				747C241E1572ED11007E5717 /* MKImageViewCell.m */,
 				74B4C07A156F4B4D00E35598 /* PureImageCell.xib */,
 				74B4C07B156F4B4D00E35598 /* SubImageCell.xib */,
-				74B4C068156F4B3600E35598 /* MKImageViewCell.h */,
-				74B4C069156F4B3600E35598 /* MKImageViewCell.m */,
-				74B4C066156F4B3600E35598 /* MKImageListViewController.h */,
-				74B4C067156F4B3600E35598 /* MKImageListViewController.m */,
 				74B4C06A156F4B3600E35598 /* MKInAppPurchaseManager.h */,
 				74B4C06B156F4B3600E35598 /* MKInAppPurchaseManager.m */,
 				74B4C06C156F4B3600E35598 /* MKOptionsView_iPhone.xib */,
@@ -157,11 +198,12 @@
 		74B4C02E156F49D600E35598 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				747C242F15745267007E5717 /* MysticArrow-Info.plist */,
 				74B4C03E156F4A8100E35598 /* Localizable.strings */,
-				74B4C02F156F49D600E35598 /* MysticArrow-Info.plist */,
 				74B4C030156F49D600E35598 /* InfoPlist.strings */,
 				74B4C033156F49D600E35598 /* main.m */,
 				74B4C035156F49D600E35598 /* MysticArrow-Prefix.pch */,
+				747C24161572B8ED007E5717 /* MAProperties.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -236,23 +278,19 @@
 				74B4C044156F4A8100E35598 /* Localizable.strings in Resources */,
 				74B4C045156F4A8100E35598 /* MKViewController_iPad.xib in Resources */,
 				74B4C046156F4A8100E35598 /* MKViewController_iPhone.xib in Resources */,
-				74B4C04B156F4AA400E35598 /* MysticArrow-Info.plist in Resources */,
-				74B4C04D156F4AAC00E35598 /* MysticArrow-Info.plist in Resources */,
-				74B4C04F156F4AB500E35598 /* MysticArrow-Info.plist in Resources */,
-				74B4C051156F4ABE00E35598 /* MysticArrow-Info.plist in Resources */,
-				74B4C053156F4AC600E35598 /* MysticArrow-Info.plist in Resources */,
-				74B4C055156F4AD000E35598 /* MysticArrow-Info.plist in Resources */,
-				74B4C057156F4AD700E35598 /* MysticArrow-Info.plist in Resources */,
-				74B4C059156F4ADE00E35598 /* MysticArrow-Info.plist in Resources */,
-				74B4C05B156F4AE500E35598 /* MysticArrow-Info.plist in Resources */,
-				74B4C05D156F4AEC00E35598 /* MysticArrow-Info.plist in Resources */,
-				74B4C05F156F4B0100E35598 /* MysticArrow-Info.plist in Resources */,
-				74B4C061156F4B0A00E35598 /* MysticArrow-Info.plist in Resources */,
-				74B4C063156F4B1400E35598 /* MysticArrow-Info.plist in Resources */,
-				74B4C065156F4B1D00E35598 /* MysticArrow-Info.plist in Resources */,
 				74B4C076156F4B3600E35598 /* MKOptionsView_iPhone.xib in Resources */,
 				74B4C07C156F4B4D00E35598 /* PureImageCell.xib in Resources */,
 				74B4C07D156F4B4D00E35598 /* SubImageCell.xib in Resources */,
+				74C54B1A157177AC0004DCDA /* ParchmentSimplecompass.png in Resources */,
+				74C54B1B157177AC0004DCDA /* ParchmentSimplecompass2.png in Resources */,
+				74C54B1C157177AC0004DCDA /* tricoin.png in Resources */,
+				74C54B1D157177AC0004DCDA /* wood dash thin.png in Resources */,
+				747C24171572B8ED007E5717 /* MAProperties.plist in Resources */,
+				747C241B1572BA38007E5717 /* Arrow-Oz.png in Resources */,
+				747C241C1572BA38007E5717 /* Arrow-tribalcross.png in Resources */,
+				747C24241572F08A007E5717 /* MKTargetsView_iPhone.xib in Resources */,
+				747C24291572F168007E5717 /* MKTargetInfoView_iPhone.xib in Resources */,
+				747C242B15740399007E5717 /* MKCapturedImageView_iPhone.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,12 +303,14 @@
 			files = (
 				74B4C034156F49D600E35598 /* main.m in Sources */,
 				74B4C038156F49D600E35598 /* MKAppDelegate.m in Sources */,
-				74B4C073156F4B3600E35598 /* MKImageListViewController.m in Sources */,
-				74B4C074156F4B3600E35598 /* MKImageViewCell.m in Sources */,
 				74B4C075156F4B3600E35598 /* MKInAppPurchaseManager.m in Sources */,
 				74B4C077156F4B3600E35598 /* MKOptionsViewController.m in Sources */,
 				74B4C078156F4B3600E35598 /* MKSpecialLocation.m in Sources */,
 				74B4C079156F4B3600E35598 /* MKViewController.m in Sources */,
+				747C241F1572ED11007E5717 /* MKImageViewCell.m in Sources */,
+				747C24221572F069007E5717 /* MKTargetsViewController.m in Sources */,
+				747C24271572F139007E5717 /* MKTargetInfoViewCtrl.m in Sources */,
+				747C242E157403B8007E5717 /* MKCapturedImageViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -379,6 +419,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MysticArrow/MysticArrow-Prefix.pch";
 				INFOPLIST_FILE = "MysticArrow/MysticArrow-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -390,6 +431,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MysticArrow/MysticArrow-Prefix.pch";
 				INFOPLIST_FILE = "MysticArrow/MysticArrow-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -414,6 +456,7 @@
 				74B4C03D156F49D600E35598 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

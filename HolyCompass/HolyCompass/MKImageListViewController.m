@@ -89,7 +89,7 @@
         if (packName == nil || [packName isEqualToString:@""])
         {
             subImageList = [allImageList objectForKey:NSLocalizedString(@"FREE", nil)];
-            NSLog(@"Add SubImg %@",imgName);
+        //    NSLog(@"Add SubImg %@",imgName);
             [subImageList addObject:imgName];
         }
         else 
@@ -98,11 +98,11 @@
             
             if ( [allGroups containsObject:packName] ) {
                 subImageList = [allImageList objectForKey:packName];
-                NSLog(@"Add SubImg %@",imgName);
+            //    NSLog(@"Add SubImg %@",imgName);
                 [subImageList addObject:imgName];
             }
             else {
-                NSLog(@"Add group %@",packName);
+            //    NSLog(@"Add group %@",packName);
                 [allGroups addObject:packName];
                 NSMutableArray* subImageList = [[NSMutableArray alloc] init];
                 [subImageList addObject:imgName];
@@ -176,7 +176,7 @@
     NSString* imgBanner = [NSString stringWithFormat:@"Banner-%@", imgName];
     imgCell.mainImage.image = [UIImage imageNamed:imgBanner];
 
-    NSLog(@"%@ - %@", packName, imgName);
+//    NSLog(@"%@ - %@", packName, imgName);
         
     return imgCell;
 }

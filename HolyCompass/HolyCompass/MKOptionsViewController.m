@@ -60,7 +60,12 @@
     
     //[self setToolbarItems:[NSArray arrayWithObjects:donebtn, space, removeAds, nil] animated:YES];
     self.navigationItem.leftBarButtonItem = donebtn;
-    self.navigationItem.rightBarButtonItem = removeAds;
+    
+    bool hide = [[NSUserDefaults standardUserDefaults] boolForKey:@"AdRemoval"];
+    if (!hide)
+    {
+        self.navigationItem.rightBarButtonItem = removeAds;
+    }
 }
 
 - (void)viewDidUnload
@@ -76,7 +81,7 @@
 
 -(IBAction)backButton:(id)sender
 {
-    NSLog(@"BACK");
+//    NSLog(@"BACK");
     
     NSString * path = [[NSBundle mainBundle] pathForResource:@"HHParameters" ofType:@"plist"];
     NSDictionary * dictionary = [NSDictionary dictionaryWithContentsOfFile:path];
@@ -152,6 +157,11 @@
 -(IBAction)removeAdsSelected:(id)sender
 {
     [parent removeAdButton];
+}
+
+-(void) clearAdsButton
+{
+    self.navigationItem.rightBarButtonItem = nil;
 }
 
 -(void) setLastSelectedBG: (NSInteger) index

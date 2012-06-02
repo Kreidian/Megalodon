@@ -184,7 +184,7 @@
 
 - (void)locationManager:(CLLocationManager *)manager didChangeAuthorizationStatus:(CLAuthorizationStatus)status
 {
-    NSLog(@"%d", status);
+//    NSLog(@"%d", status);
    
     if (status == kCLAuthorizationStatusAuthorized && myStatus != kCLAuthorizationStatusAuthorized)
     {
@@ -251,7 +251,7 @@
 
 -(void) doneButton
 {
-    NSLog(@"BACK");
+//    NSLog(@"BACK");
     
     [self.locationManager startUpdatingLocation];
     [self.locationManager startUpdatingHeading];
@@ -271,7 +271,11 @@
 
 -(void) removeAdButton
 {
-    [self.iaManager makePurchase:@"AdRemoval"];
+    bool hide = [[NSUserDefaults standardUserDefaults] boolForKey:@"AdRemoval"];
+    if (!hide)
+    {
+        [self.iaManager makePurchase:@"AdRemoval"];
+    }
 }
 
 -(void) setCityData: (NSInteger) index
@@ -304,6 +308,7 @@
     if ([name isEqualToString:@"AdRemoval"])
     {
         adBannerView.hidden = YES;
+        [options clearAdsButton];
     }
     else 
     {
@@ -329,7 +334,7 @@
 
 - (void)bannerViewWillLoadAd:(ADBannerView *)banner
 {
-    NSLog(@"receiveing ad");
+//    NSLog(@"receiveing ad");
     
     bool hide = [[NSUserDefaults standardUserDefaults] boolForKey:@"AdRemoval"];
     

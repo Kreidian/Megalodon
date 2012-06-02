@@ -38,6 +38,7 @@
 -(IBAction)backButton:(id)sender;
 
 -(IBAction)removeAdsSelected:(id)sender;
+-(void) clearAdsButton;
 
 -(void) saveOptionSettings;
 -(void) loadOptionSettings;
