@@ -10,17 +10,21 @@
 #import "MKSpecialLocation.h"
 #import "MKCapturedImageViewController.h"
 #import <CommonCrypto/CommonDigest.h>
+#import <QuartzCore/CAAnimation.h>
 
 #define RADIANS_TO_DEGREES(radians) ((radians) * (180.0 / M_PI))
 #define DEGREES_TO_RADIANS(angle) ((angle) / 180.0 * M_PI)
 
 #define isIPhone() [[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPhone
 
+#define kMinPicAllowedDist 10
+
 @interface MKViewController ()
 {
     MKCapturedImageViewController* capture;
 }
 
+- (void) runSpinAnimationOnView:(UIView*)view duration:(CGFloat)duration rotations:(CGFloat)rotations repeat:(float)repeat;
 -(void) checkHeading;
 - (NSString *) md5:(NSString *) input;
 -(void) scanForSpooky;
@@ -44,6 +48,8 @@
 @synthesize iaManager;
 @synthesize navControl;
 @synthesize picButton;
+@synthesize optButton;
+@synthesize selButton;
 
 - (void)viewDidLoad
 {
@@ -67,8 +73,9 @@
     
     inMiles = NO;
     spookyScanned = NO;
+    PicAllowed = NO;
     
-    [self setCityData:0];
+    [self setCurrentTheme:0];
     
     myStatus = kCLAuthorizationStatusAuthorized;
     
@@ -82,7 +89,7 @@
     self.locationManager.desiredAccuracy = kCLLocationAccuracyBest;
     // Once configured, the location manager must be "started".
     
-//    [options loadOptionSettings];
+    [options loadOptionSettings];
         
     [locationManager startUpdatingLocation];
     [locationManager startUpdatingHeading];
@@ -170,9 +177,33 @@
     
     arrow.transform = CGAffineTransformMakeRotation(DEGREES_TO_RADIANS(brng));
 
-    if ( dist < 10 )
+    if ( dist <= kMinPicAllowedDist )
     {
-        self.picButton.enabled = YES;
+        if (PicAllowed == NO)
+        {
+            NSString * path = [[NSBundle mainBundle] pathForResource:@"MAProperties" ofType:@"plist"];
+            NSDictionary * dictionary = [NSDictionary dictionaryWithContentsOfFile:path];
+            NSArray* Themes = [dictionary objectForKey:@"Themes"];
+            NSString* name = [Themes objectAtIndex:[self.options getLastSelectedTheme]];
+            NSString* btnName = [NSString stringWithFormat:@"ButMain-%@.png", name];
+            [self.picButton setImage:[UIImage imageNamed:btnName] forState:UIControlStateNormal];
+        }
+        
+        PicAllowed = YES;
+    }
+    else 
+    {
+        if (PicAllowed == YES)
+        {
+            NSString * path = [[NSBundle mainBundle] pathForResource:@"MAProperties" ofType:@"plist"];
+            NSDictionary * dictionary = [NSDictionary dictionaryWithContentsOfFile:path];
+            NSArray* Themes = [dictionary objectForKey:@"Themes"];
+            NSString* name = [Themes objectAtIndex:[self.options getLastSelectedTheme]];
+            NSString* btnName = [NSString stringWithFormat:@"ButOff-%@.png", name];
+            [self.picButton setImage:[UIImage imageNamed:btnName] forState:UIControlStateNormal];
+        }
+        
+        PicAllowed = NO;
     }
 }
 
@@ -272,17 +303,83 @@
     [self.iaManager makePurchase:@"AdRemoval"];
 }
 
--(void) setCityData: (NSInteger) index
+-(void) setCurrentTheme: (NSInteger) index
 {
-    MKSpecialLocation* city = [self.CityLocations objectAtIndex:index];
-    NSLog(@"%@", city);
-//    self.holycity = city;
+    if (index != [self.options getLastSelectedTheme]) 
+        return;
     
-//    cityName.text = city.name;
+    NSString * path = [[NSBundle mainBundle] pathForResource:@"MAProperties" ofType:@"plist"];
+    NSDictionary * dictionary = [NSDictionary dictionaryWithContentsOfFile:path];
+    NSArray* Themes = [dictionary objectForKey:@"Themes"];
+    NSString* name = [Themes objectAtIndex:index];
+    NSString* picName = nil; 
+    NSString* optName = [NSString stringWithFormat:@"ButOpt-%@.png", name];
+    NSString* SelName = [NSString stringWithFormat:@"ButSel-%@.png", name];
+    NSString* bgName = [NSString stringWithFormat:@"Back-%@.png", name];
+    NSString* AName = [NSString stringWithFormat:@"Arrow-%@.png", name];
     
-//    CLLocationCoordinate2D coord = [city getCoordinates];
+    if (PicAllowed) {
+        picName = [NSString stringWithFormat:@"ButMain-%@.png", name];
+    } else {
+        picName = [NSString stringWithFormat:@"ButOff-%@.png", name];
+    }
     
-//    cityLocData = [[CLLocation alloc] initWithLatitude:coord.latitude longitude:coord.longitude];
+    [self.picButton setImage:[UIImage imageNamed:picName] forState:UIControlStateNormal];
+    [self.optButton setImage:[UIImage imageNamed:optName] forState:UIControlStateNormal];
+    [self.selButton setImage:[UIImage imageNamed:SelName] forState:UIControlStateNormal];
+    bgImage.image = [UIImage imageNamed:bgName];
+    arrow.image = [UIImage imageNamed:AName];
+    
+    UIColor* fText = nil;
+    UIColor* bText = nil;
+    
+    switch (index) {
+        case 0:
+            fText = [UIColor blackColor];
+            break;
+        case 1:
+            fText = [UIColor yellowColor];
+            bText = [UIColor blackColor];
+            break;
+        case 2:
+            fText = [UIColor colorWithRed:0.0 green:0.5 blue:0.0 alpha:1.0];
+            break;
+        case 3:
+            fText = [UIColor blackColor];
+            bText = [UIColor lightGrayColor];
+            break;
+        case 4:
+            fText = [UIColor greenColor];
+            break;
+        case 5:
+            fText = [UIColor whiteColor];
+            bText = [UIColor blackColor];
+            break;    
+        default:
+            break;
+    }
+
+    self.spookyName.textColor = fText;
+    self.distance.textColor = fText;
+    
+    if (bText != nil)
+    {
+        CGSize size = CGSizeMake(1, 1);
+        
+        self.spookyName.shadowColor = bText;
+        self.spookyName.shadowOffset = size;
+        self.distance.shadowColor = bText;
+        self.distance.shadowOffset = size;
+    }
+    else 
+    {
+        CGSize size = CGSizeMake(0, 0);
+        
+        self.spookyName.shadowColor = bText;
+        self.spookyName.shadowOffset = size;
+        self.distance.shadowColor = bText;
+        self.distance.shadowOffset = size;
+    }
 }
 
 -(void) setInMiles: (BOOL) mi
@@ -306,7 +403,7 @@
     }
     else 
     {
-    //    [options.subimages.mySettingsView reloadData];
+        [options.mySettingsView reloadData];
     }
 }
 
@@ -388,13 +485,17 @@
 
 -(IBAction)onPhotoBtn:(id)sender
 {
-    [self takePhoto];
+//    [locationManager stopUpdatingLocation];
+//    [locationManager stopUpdatingHeading];
+    if (PicAllowed)
+        [self takePhoto];
 }
 
 -(void) takePhoto
 {
     if (![UIImagePickerController isSourceTypeAvailable:UIImagePickerControllerSourceTypeCamera]) {
-        [self loadPic];
+        if (isIPhone())
+            [self loadPic];
         return;
     }
     
@@ -412,6 +513,8 @@
     
     // Show image picker
     [self presentModalViewController:imagePicker animated:YES];
+    
+    [self resetScan];
 }
 
 -(void) loadPic
@@ -438,6 +541,7 @@
     UIImage *image = [info objectForKey:@"UIImagePickerControllerOriginalImage"];
     
     capture = [[MKCapturedImageViewController alloc] initWithImage:image];
+    capture.parent = self;
     
     [self.view addSubview:capture.view];
     
@@ -448,7 +552,25 @@
 
 -(IBAction)onSpookyScan:(id)sender
 {
-    [self scanForSpooky];
+    self.distance.text = NSLocalizedString(@"SCANNING", nil);
+//    [locationManager startUpdatingLocation];
+//    [locationManager startUpdatingHeading];
+    [self runSpinAnimationOnView:self.arrow duration:1 rotations:1 repeat:2];
+    [self performSelector:@selector(scanForSpooky) withObject:nil afterDelay:2];
+    
+//    [self scanForSpooky];
+}
+
+- (void) runSpinAnimationOnView:(UIView*)view duration:(CGFloat)duration rotations:(CGFloat)rotations repeat:(float)repeat
+{
+    CABasicAnimation* rotationAnimation;
+    rotationAnimation = [CABasicAnimation animationWithKeyPath:@"transform.rotation.z"];
+    rotationAnimation.toValue = [NSNumber numberWithFloat: M_PI * 2.0 /* full rotation*/ * rotations * duration ];
+    rotationAnimation.duration = duration;
+    rotationAnimation.cumulative = YES;
+    rotationAnimation.repeatCount = repeat;
+    
+    [view.layer addAnimation:rotationAnimation forKey:@"rotationAnimation"];
 }
 
 -(void) resetScan
@@ -456,6 +578,13 @@
     spookyScanned = NO;
     self.distance.text = @"";
     self.arrow.transform = CGAffineTransformMakeRotation(0.0);
+    PicAllowed = NO;
+    NSString * path = [[NSBundle mainBundle] pathForResource:@"MAProperties" ofType:@"plist"];
+    NSDictionary * dictionary = [NSDictionary dictionaryWithContentsOfFile:path];
+    NSArray* Themes = [dictionary objectForKey:@"Themes"];
+    NSString* name = [Themes objectAtIndex:[self.options getLastSelectedTheme]];
+    NSString* btnName = [NSString stringWithFormat:@"ButOff-%@.png", name];
+    [self.picButton setImage:[UIImage imageNamed:btnName] forState:UIControlStateNormal];
 }
 
 -(void) scanForSpooky
@@ -473,7 +602,7 @@
     [dateFormatter setDateFormat:@"yyyyMMddHHmmss"];
     NSDate *baseDay = [dateFormatter dateFromString:[formattedDateString stringByAppendingFormat:@"000000"]];
         
-    NSString* data = [NSString stringWithFormat:@"%@%@", spookName, formattedDateString];
+    NSString* data = [NSString stringWithFormat:@"%@-8kEyPhRaSe8-%@", formattedDateString, spookyName ];
     
     NSString* hash = [self md5:data];
     
@@ -512,6 +641,8 @@
     val5test = val5test % 3;
     val6test = val6test % 3;
     
+    val1test = val1test % 1000;
+    val2test = val2test % 1000;
     double latMod = val1test / 10000000.0;
     double lonMod = val2test / 10000000.0;
     
@@ -520,11 +651,12 @@
 
 //    testCoords.latitude = 34.207366;
 //    testCoords.longitude = -118.396182;
+    NSLog(@"%.10f, %.10f, %.10f, %.10f", latMod, lonMod, testCoords.latitude, testCoords.longitude);
 
-    int stripper = testCoords.latitude * 1000;
-    testCoords.latitude = stripper / 1000.0;
-    stripper = testCoords.longitude * 1000;
-    testCoords.longitude = stripper / 1000.0;
+    int stripper = testCoords.latitude * 10000;
+    testCoords.latitude = stripper / 10000.0;
+    stripper = testCoords.longitude * 10000;
+    testCoords.longitude = stripper / 10000.0;
     testCoords.latitude += latMod;
     testCoords.longitude += lonMod;
     

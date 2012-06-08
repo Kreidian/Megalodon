@@ -253,10 +253,9 @@
 {
     UITableViewCell  * cell = [tableView cellForRowAtIndexPath:indexPath];
     cell.selected = NO;
-    NSString * path = [[NSBundle mainBundle] pathForResource:@"MAProperties" ofType:@"plist"];
-    NSDictionary * dictionary = [NSDictionary dictionaryWithContentsOfFile:path];
-    
-    
+//    NSString * path = [[NSBundle mainBundle] pathForResource:@"MAProperties" ofType:@"plist"];
+//    NSDictionary * dictionary = [NSDictionary dictionaryWithContentsOfFile:path];
+
     switch (indexPath.section) {
         case 0:
             if ( [self.parent distUnits] )
@@ -272,8 +271,8 @@
 
             break;
         case 1:
-            [parent setCityData:indexPath.row];
             lastSelectedTheme = indexPath.row;
+            [parent setCurrentTheme:indexPath.row];
             break;
 
         default:
@@ -292,7 +291,7 @@
 -(void) saveOptionSettings
 {    
     //NSInteger cidx = [parent.CityLocations indexOfObject:parent.holycity];
-    [[NSUserDefaults standardUserDefaults] setInteger:lastSelectedTheme forKey:kCitySelectedStr];
+    [[NSUserDefaults standardUserDefaults] setInteger:lastSelectedTheme forKey:kBGSelectedStr];
 //    [[NSUserDefaults standardUserDefaults] setInteger:lastSelectedBG forKey:kBGSelectedStr];
 //    [[NSUserDefaults standardUserDefaults] setInteger:lastPointerSel forKey:kPointerSelectedStr];
     [[NSUserDefaults standardUserDefaults] setDouble:parent.locationManager.desiredAccuracy forKey:kLocAccuracyStr];
@@ -304,31 +303,28 @@
 
 -(void) loadOptionSettings
 {
-    NSString * path = [[NSBundle mainBundle] pathForResource:@"MAProperties" ofType:@"plist"];
-    NSDictionary * dictionary = [NSDictionary dictionaryWithContentsOfFile:path];
-    NSArray* Themes = [dictionary objectForKey:@"Themes"];
+//    NSString * path = [[NSBundle mainBundle] pathForResource:@"MAProperties" ofType:@"plist"];
+//    NSDictionary * dictionary = [NSDictionary dictionaryWithContentsOfFile:path];
+//    NSArray* Themes = [dictionary objectForKey:@"Themes"];
 
-    NSInteger cidx = [[NSUserDefaults standardUserDefaults] integerForKey:kCitySelectedStr];
+    NSInteger cidx = [[NSUserDefaults standardUserDefaults] integerForKey:kBGSelectedStr];
     lastSelectedTheme = cidx;
-    [self.parent setCityData:cidx];
+    [self.parent setCurrentTheme:cidx];
+
     
-    cidx = [[NSUserDefaults standardUserDefaults] integerForKey:kBGSelectedStr];
-    self.parent.bgImage.image = [UIImage imageNamed:[Themes objectAtIndex:cidx]];
-//    lastSelectedBG = cidx;
-    
-    cidx = [[NSUserDefaults standardUserDefaults] integerForKey:kPointerSelectedStr];
-    self.parent.arrow.image = [UIImage imageNamed:[Themes objectAtIndex:cidx]];
+//    cidx = [[NSUserDefaults standardUserDefaults] integerForKey:kPointerSelectedStr];
+//    self.parent.arrow.image = [UIImage imageNamed:[Themes objectAtIndex:cidx]];
 //    lastPointerSel = cidx;
-    
+/*    
     CLLocationAccuracy accuracy = [[NSUserDefaults standardUserDefaults] doubleForKey:kLocAccuracyStr];
     if (accuracy == 0)
     {
         accuracy = kCLLocationAccuracyBest;
     }
     parent.locationManager.desiredAccuracy = accuracy;
-
+*/
     bool value = [[NSUserDefaults standardUserDefaults] boolForKey:kHideDistanceStr];
-    self.parent.distance.hidden = value;
+//    self.parent.distance.hidden = value;
 
     value = [[NSUserDefaults standardUserDefaults] boolForKey:kUnitsInMilesStr];
     [self.parent setInMiles:value];

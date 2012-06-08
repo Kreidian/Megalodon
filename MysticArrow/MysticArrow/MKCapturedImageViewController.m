@@ -7,6 +7,8 @@
 //
 
 #import "MKCapturedImageViewController.h"
+#import "MKViewController.h"
+#import "MKOptionsViewController.h"
 #import <Twitter/Twitter.h>
 
 @interface MKCapturedImageViewController ()
@@ -23,6 +25,7 @@
 
 @synthesize mainImage;
 @synthesize loadImage;
+@synthesize parent;
 
 - (id)initWithImage: (UIImage*) image
 {
@@ -76,7 +79,17 @@
     CGFloat scHeight = myscreen.bounds.size.height * myscreen.scale;
     CGFloat ratio, delta;
     int x, y;
-    UIImage* overlay = [UIImage imageNamed:@"Arrow-tribalcross"];
+    
+    NSString * path = [[NSBundle mainBundle] pathForResource:@"MAProperties" ofType:@"plist"];
+    NSDictionary * dictionary = [NSDictionary dictionaryWithContentsOfFile:path];
+    NSArray* Spookies = [dictionary objectForKey:@"Spookies"];
+    NSString* name = [Spookies objectAtIndex:[self.parent.options getLastSpookySelected]];
+    NSArray* founds = [dictionary objectForKey:name];
+    
+    int idx = rand() % founds.count;
+    name = [founds objectAtIndex:idx];
+    
+    UIImage* overlay = [UIImage imageNamed:name];
     
     
     if (width > height)

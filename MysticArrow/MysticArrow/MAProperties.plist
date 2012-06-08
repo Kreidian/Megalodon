@@ -4,6 +4,7 @@
 <dict>
 	<key>Products</key>
 	<array>
+		<string>Theme1</string>
 		<string>AdRemoval</string>
 	</array>
 	<key>Spookies</key>
@@ -12,10 +13,53 @@
 		<string>FAIRY</string>
 		<string>ANGEL</string>
 		<string>DEMON</string>
+		<string>ELF</string>
+		<string>GNOME</string>
 	</array>
 	<key>Themes</key>
 	<array>
-		<string>zodiac</string>
+		<string>Wiz</string>
+		<string>Clt</string>
+		<string>Chns</string>
+		<string>Ndc</string>
+		<string>Scifi</string>
+		<string>SGW</string>
+	</array>
+	<key>GHOST</key>
+	<array>
+		<string>Ghost-goya</string>
+		<string>Ghost-inger</string>
+		<string>Ghost-Lucientes</string>
+		<string>Ghost-munch</string>
+		<string>Ghost-Scream</string>
+		<string>Ghost-Sabasa</string>
+	</array>
+	<key>FAIRY</key>
+	<array>
+		<string>Ghonst-Girl</string>
+		<string>Ghost-osorio</string>
+	</array>
+	<key>ANGEL</key>
+	<array>
+		<string>Ghost-osorio</string>
+		<string>Ghost-woman</string>
+	</array>
+	<key>DEMON</key>
+	<array>
+		<string>demon-saturn</string>
+		<string>Ghost-Scream</string>
+		<string>Ghost-munch</string>
+	</array>
+	<key>ELF</key>
+	<array>
+		<string>Ghost-woman</string>
+		<string>Ghost-osorio</string>
+	</array>
+	<key>GNOME</key>
+	<array>
+		<string>Ghost-sharky2</string>
+		<string>Ghost-osorio</string>
+		<string>Ghost-sharky</string>
 	</array>
 </dict>
 </plist>

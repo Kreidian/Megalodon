@@ -8,12 +8,15 @@
 
 #import <UIKit/UIKit.h>
 
+@class  MKViewController;
+
 @interface MKCapturedImageViewController : UIViewController
 {
     IBOutlet UIImageView* mainImage;
 }
 
 @property(strong, nonatomic) IBOutlet UIImageView* mainImage;
+@property(assign, nonatomic) MKViewController* parent;
 
 - (id)initWithImage: (UIImage*) image;
 -(void) loadInImage: (UIImage*) image;

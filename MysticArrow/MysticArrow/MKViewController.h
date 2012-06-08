@@ -22,6 +22,7 @@
     int cLatFactor;
     
     BOOL spookyScanned;
+    BOOL PicAllowed;
     
     CLLocationCoordinate2D lastPosition;
     CLLocationDirection lastHeading;
@@ -47,6 +48,8 @@
     IBOutlet ADBannerView *adBannerView;
     
     IBOutlet UIButton* picButton;
+    IBOutlet UIButton* optButton;
+    IBOutlet UIButton* selButton;
     
     UINavigationController* navControl;
     NSDate *baseTimeData;
@@ -60,6 +63,8 @@
 @property(strong, nonatomic) IBOutlet UILabel* spookyName;
 @property(strong, nonatomic) IBOutlet UILabel* distance;
 @property(strong, nonatomic) IBOutlet UIButton* picButton;
+@property(strong, nonatomic) IBOutlet UIButton* optButton;
+@property(strong, nonatomic) IBOutlet UIButton* selButton;
 
 @property(strong, nonatomic) MKOptionsViewController* options;
 @property(strong, nonatomic) MKTargetsViewController* select;
@@ -71,7 +76,7 @@
 
 -(IBAction)onOptions:(id)sender;
 
--(void) setCityData: (NSInteger) index;
+-(void) setCurrentTheme: (NSInteger) index;
 -(void) setInMiles: (BOOL) mi;
 -(bool) distUnits;
 

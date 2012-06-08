@@ -20,8 +20,8 @@
 "ENOUGH" = "Good";
 "SETTINGS" = "Distance Settings";
 "DISTANCE" = "Show Distance";
-"MILES" = "Show Distance in: Miles";
-"KILOMETERS" = "Show Distance in: Kilometers";
+"MILES" = "Show Distance in: feet";
+"KILOMETERS" = "Show Distance in: meters";
 
 "LOCERROR" = "Location Services Disabled";
 "LOCERRMSG1" = "This app need this service to be enabled in order to funciton properly.";
@@ -38,6 +38,25 @@
 
 "PURCHASING" = "purchasing";
 
+"THEME" = "Select Theme";
+"TARGETS" = "Scan Select";
+
+"SCANNING" = "scanning...";
+
 "TWITTERERR" = "Twitter not Enabled";
 "TWITERRMSG" = "Please make sure you have enabled your Twitter account in your Settings.";
 "TWITTERPOST" = "Look what I found using #MysticArrow";
+
+"Wiz" = "Wizard";
+"SGW" = "Window";
+"Scifi" = "Sci Fi";
+"Ndc" = "Nordic";
+"Chns" = "Chinese";
+"Clt" = "Celtic";
+
+"GHOST" = "Ghost";
+"FAIRY" = "Fairy";
+"ANGEL" = "Angel";
+"DEMON" = "Demon";
+"ELF" = "Elf";
+"GNOME" = "Gnome";
