@@ -177,7 +177,7 @@
     
     arrow.transform = CGAffineTransformMakeRotation(DEGREES_TO_RADIANS(brng));
 
-    if ( dist <= kMinPicAllowedDist )
+    if ( spookyDist <= kMinPicAllowedDist )
     {
         if (PicAllowed == NO)
         {
