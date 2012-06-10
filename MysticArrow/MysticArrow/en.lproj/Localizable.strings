@@ -39,6 +39,7 @@
 "PURCHASING" = "purchasing";
 
 "THEME" = "Select Theme";
+"THEMEPK" = "Theme Pack";
 "TARGETS" = "Scan Select";
 
 "SCANNING" = "scanning...";

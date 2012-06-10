@@ -65,7 +65,7 @@
 						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
 						<object class="NSCustomResource" key="IBUIImage">
 							<string key="NSClassName">NSImage</string>
-							<string key="NSResourceName">Arrow-Oz.png</string>
+							<string key="NSResourceName">Arrow-Scifi.png</string>
 						</object>
 					</object>
 					<object class="IBADBannerView" id="105128847">
@@ -190,7 +190,7 @@
 							<int key="type">2</int>
 							<double key="pointSize">15</double>
 						</object>
-						<object class="NSFont" key="IBUIFont" id="680695847">
+						<object class="NSFont" key="IBUIFont" id="777259437">
 							<string key="NSName">Helvetica-Bold</string>
 							<double key="NSSize">15</double>
 							<int key="NSfFlags">16</int>
@@ -220,7 +220,7 @@
 							<string key="NSResourceName">ButOpt-Chns.png</string>
 						</object>
 						<reference key="IBUIFontDescription" ref="988654997"/>
-						<reference key="IBUIFont" ref="680695847"/>
+						<reference key="IBUIFont" ref="777259437"/>
 					</object>
 					<object class="IBUIButton" id="805057031">
 						<reference key="NSNextResponder" ref="774585933"/>
@@ -244,7 +244,7 @@
 							<string key="NSResourceName">ButSel-Chns.png</string>
 						</object>
 						<reference key="IBUIFontDescription" ref="988654997"/>
-						<reference key="IBUIFont" ref="680695847"/>
+						<reference key="IBUIFont" ref="777259437"/>
 					</object>
 					<object class="IBUIButton" id="322252727">
 						<reference key="NSNextResponder" ref="774585933"/>
@@ -269,7 +269,7 @@
 							<string key="NSResourceName">ButMain-Chns.png</string>
 						</object>
 						<reference key="IBUIFontDescription" ref="988654997"/>
-						<reference key="IBUIFont" ref="680695847"/>
+						<reference key="IBUIFont" ref="777259437"/>
 					</object>
 				</array>
 				<string key="NSFrameSize">{320, 480}</string>
@@ -605,7 +605,7 @@
 		<bool key="IBDocument.PluginDeclaredDependenciesTrackSystemTargetVersion">YES</bool>
 		<int key="IBDocument.defaultPropertyAccessControl">3</int>
 		<dictionary class="NSMutableDictionary" key="IBDocument.LastKnownImageSizes">
-			<string key="Arrow-Oz.png">{640, 640}</string>
+			<string key="Arrow-Scifi.png">{320, 320}</string>
 			<string key="Back-Scifi.png">{640, 960}</string>
 			<string key="ButMain-Chns.png">{141, 154}</string>
 			<string key="ButOpt-Chns.png">{141, 154}</string>

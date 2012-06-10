@@ -20,6 +20,9 @@
 #define kUnitsInMilesStr @"IsUnitsMiles"
 
 @interface MKOptionsViewController ()
+{
+    short freeThemes;
+}
 
 @end
 
@@ -38,6 +41,7 @@
     if (self) {
         // Custom initialization
         lastSpookySelected = 0;
+        freeThemes = 2;
     }
     return self;
 }
@@ -67,7 +71,7 @@
 
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
 {
-    return UIInterfaceOrientationIsPortrait(interfaceOrientation);
+    return (interfaceOrientation == UIInterfaceOrientationPortrait);
 }
 
 -(IBAction)backButton:(id)sender
@@ -170,13 +174,28 @@
                 cell.textLabel.text =  NSLocalizedString(@"KILOMETERS", nil);
             }
             break; 
-        case 1: // theme choice
+        case 1: // free themes
             
             assets = [dictionary objectForKey:@"Themes"];
             
             cell.textLabel.text =  NSLocalizedString([assets objectAtIndex:indexPath.row], nil);
             
             if (indexPath.row == lastSelectedTheme)
+            {
+                cell.accessoryType = UITableViewCellAccessoryCheckmark;
+            }
+            else
+            {
+                cell.accessoryType = UITableViewCellAccessoryNone;
+            }
+            break;
+        case 2: // theme choice
+            
+            assets = [dictionary objectForKey:@"Themes"];
+            
+            cell.textLabel.text =  NSLocalizedString([assets objectAtIndex:(indexPath.row + freeThemes)], nil);
+            
+            if ((indexPath.row + freeThemes) == lastSelectedTheme)
             {
                 cell.accessoryType = UITableViewCellAccessoryCheckmark;
             }
@@ -202,7 +221,7 @@
  
  - (NSInteger) numberOfSectionsInTableView:(UITableView *)tableView
  {
-     return 2;
+     return 3;
  }
  
  - (NSString *)tableView:(UITableView *)tableView titleForHeaderInSection:(NSInteger)section
@@ -213,7 +232,10 @@
              titleName =  NSLocalizedString(@"SETTINGS", nil);
              break;
          case 1:
-             titleName =  NSLocalizedString(@"THEME", nil);
+             titleName =  [NSString stringWithFormat:@"%@ - %@", NSLocalizedString(@"THEME", nil), NSLocalizedString(@"FREE", nil)];
+             break;
+         case 2:
+             titleName =  [NSString stringWithFormat:@"%@ - %@ 1", NSLocalizedString(@"THEME", nil), NSLocalizedString(@"THEMEPK", nil)];
              break;
             
          default:
@@ -237,8 +259,11 @@
             count = 1;
             break;
         case 1:
+            count = freeThemes;
+            break;
+        case 2:
             assets = [dictionary objectForKey:@"Themes"];
-            count = assets.count;
+            count = assets.count - freeThemes;
             break;
             
         default:
@@ -253,8 +278,7 @@
 {
     UITableViewCell  * cell = [tableView cellForRowAtIndexPath:indexPath];
     cell.selected = NO;
-//    NSString * path = [[NSBundle mainBundle] pathForResource:@"MAProperties" ofType:@"plist"];
-//    NSDictionary * dictionary = [NSDictionary dictionaryWithContentsOfFile:path];
+    NSString* packName = @"Theme1";
 
     switch (indexPath.section) {
         case 0:
@@ -272,7 +296,16 @@
             break;
         case 1:
             lastSelectedTheme = indexPath.row;
-            [parent setCurrentTheme:indexPath.row];
+            [parent setCurrentTheme:lastSelectedTheme];
+            break;
+        case 2:
+            if ([[NSUserDefaults standardUserDefaults] boolForKey:packName] == NO)
+            {
+                [self.parent.iaManager makePurchase:packName];
+                return;
+            }
+            lastSelectedTheme = indexPath.row + freeThemes;
+            [parent setCurrentTheme:lastSelectedTheme];
             break;
 
         default:
