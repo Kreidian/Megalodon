@@ -42,6 +42,7 @@
 "THEMEPK" = "Theme Pack";
 "TARGETS" = "Scan Select";
 
+"BEGINSCAN" = "tap the arrow to begin";
 "SCANNING" = "scanning...";
 
 "TWITTERERR" = "Twitter not Enabled";
@@ -61,3 +62,4 @@
 "DEMON" = "Demon";
 "ELF" = "Elf";
 "GNOME" = "Gnome";
+"ALIEN" = "Alien";

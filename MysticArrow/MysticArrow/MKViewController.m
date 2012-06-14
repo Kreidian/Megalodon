@@ -70,6 +70,7 @@
     [iaManager setupPurchaseManager:products];
     iaManager.delegate = self;
     
+    [self resetScan];
     
     inMiles = NO;
     spookyScanned = NO;
@@ -576,7 +577,7 @@
 -(void) resetScan
 {
     spookyScanned = NO;
-    self.distance.text = @"";
+    self.distance.text = NSLocalizedString(@"BEGINSCAN", nil);
     self.arrow.transform = CGAffineTransformMakeRotation(0.0);
     PicAllowed = NO;
     NSString * path = [[NSBundle mainBundle] pathForResource:@"MAProperties" ofType:@"plist"];
